@@ -1,5 +1,6 @@
 "use client";
-import videoImg from "@/public/images/parking-aparcamiento.png";
+import MenuLink from "@/components/Shared/MenuLink";
+import videoImg from "@/public/images/parking/home/parking-aparcamiento.png";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -7,6 +8,7 @@ export default function VideoArea() {
   let [isVideo, setIsVideo] = useState(false);
   return (
     <section className="relative  xl:min-h-screen">
+      <MenuLink />
       {isVideo ? (
         <div className="vimeo-wrapper">
           <iframe
@@ -22,13 +24,7 @@ export default function VideoArea() {
             alt={"video imag"}
             fill
           />
-          <div className="absolute inset-0 max-sm:bg-black/20">
-            <div className="w-40 absolute top-10 max-sm:left-8 sm:right-20">
-              <h2 className="text-3xl font-bold text-white">
-                SERVICIOS PRODUCTOS
-              </h2>
-            </div>
-          </div>
+
           <button
             onClick={() => setIsVideo(true)}
             type="button"

@@ -1,6 +1,6 @@
-import iconOne from "@/public/images/icon-one.svg";
-import iconThree from "@/public/images/icon-three.svg";
-import iconTwo from "@/public/images/icon-two.svg";
+import iconOne from "@/public/images/parking/home/icon-one.svg";
+import iconThree from "@/public/images/parking/home/icon-three.svg";
+import iconTwo from "@/public/images/parking/home/icon-two.svg";
 import Image from "next/image";
 import Link from "next/link";
 
