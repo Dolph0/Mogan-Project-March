@@ -1,8 +1,8 @@
-import IconFour from "./Svg/IconFour";
-import IconOne from "./Svg/IconOne";
-import IconThree from "./Svg/IconThree";
-import IconTwo from "./Svg/IconTwo";
-import PlaceFrame from "./Svg/PlaceFrame";
+import IconFour from "../../Svg/IconFour";
+import IconOne from "../../Svg/IconOne";
+import IconThree from "../../Svg/IconThree";
+import IconTwo from "../../Svg/IconTwo";
+import PlaceFrame from "../../Svg/PlaceFrame";
 
 export default function Places() {
   return (

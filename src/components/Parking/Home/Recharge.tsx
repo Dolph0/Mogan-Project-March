@@ -1,6 +1,6 @@
-import imageOne from "@/public/images/Gran-Canaria-Arguineguin.png";
-import car from "@/public/images/electric-car.svg";
-import onboarding from "@/public/images/video-onboarding.png";
+import imageOne from "@/public/images/parking/home/Gran-Canaria-Arguineguin.png";
+import car from "@/public/images/parking/home/electric-car.svg";
+import onboarding from "@/public/images/parking/home/video-onboarding.png";
 import Image from "next/image";
 
 export default function Recharge() {
