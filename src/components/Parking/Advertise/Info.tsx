@@ -6,7 +6,7 @@ export default function Info() {
     <section className="py-14 sm:py-24 px-8">
       <div className="max-w-screen-xl mx-auto space-y-12 sm:space-y-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xl:gap-14  xl:px-10">
-          <div className="rounded-tl-3xl rounded-br-3xl overflow-hidden">
+          <div className="rounded-tl-3xl rounded-br-3xl overflow-hidden bg-brand-orange">
             <div className="relative min-h-[170px] sm:min-h-[374px] w-full">
               <Image
                 src={Canaria}
@@ -15,7 +15,7 @@ export default function Info() {
                 fill
               />
             </div>
-            <div className="pt-5 sm:pt-8 pb-8 sm:pb-12 px-7 xl:px-10 space-y-4 bg-brand-orange">
+            <div className="pt-5 sm:pt-8 pb-8 sm:pb-12 px-7 xl:px-10 space-y-4 ">
               <h3 className="font-extrabold text-base sm:text-3xl lg:text-[42px] leading-[1.2] text-white ">
                 Cartelería Interior
               </h3>
@@ -35,7 +35,7 @@ export default function Info() {
               </p>
             </div>
           </div>
-          <div className="rounded-tl-3xl rounded-br-3xl overflow-hidden">
+          <div className="rounded-tl-3xl rounded-br-3xl overflow-hidden bg-brand-orange">
             <div className="relative min-h-[170px] sm:min-h-[374px] w-full">
               <Image
                 src={CanariaTwo}
@@ -44,18 +44,19 @@ export default function Info() {
                 fill
               />
             </div>
-            <div className="pt-5 sm:pt-8 pb-8 sm:pb-12 px-7 xl:px-10 space-y-4 bg-brand-orange">
+            <div className="pt-5 sm:pt-8 pb-8 sm:pb-12 px-7 xl:px-10 space-y-4  ">
               <h3 className="font-extrabold text-base sm:text-3xl lg:text-[42px] leading-[1.2] text-white ">
-                Cartelería Interior
+                QR Ticket Parking
               </h3>
               <h5 className="font-bold text-white text-xs sm:text-sm">
-                Maximiza el impacto de tu audiencia anúnciante en nuestro
-                parking.
+                Conecta con tu audiencia directamente desde su dispositivo.
               </h5>
               <p className="text-white text-[11px] sm:text-sm">
-                Una solución de cartelería sencilla, rápida y con los mejores
-                precios para llegar a tu cliente potencial en zonas
-                estrategicamentes transistas de neustro parking. Impacto 100%.
+                Amplía la visibilidad de tus anuncios mediante la
+                geolocalización y ofrece a tu audiencia la oportunidad de
+                explorar tus promociones y obtener descuentos exclusivos al
+                escanear el código QR que se encuentra en el ticket de
+                estacionamiento.
                 <br />
                 <br />
                 Rellena nuestro formulario de contacto para contratar publicidad

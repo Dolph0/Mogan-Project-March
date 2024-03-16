@@ -28,6 +28,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         banner:
           "linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.88) 100%)",
+        "banner-two":
+          "linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.35) 100%)",
       },
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],

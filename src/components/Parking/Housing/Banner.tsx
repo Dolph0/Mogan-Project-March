@@ -2,7 +2,7 @@ import banner from "@/public/images/parking/housing/banner.png";
 import Image from "next/image";
 export default function Banner() {
   return (
-    <section className="relative min-h-[470px] lg:min-h-[735px]">
+    <section className="relative min-h-[470px] lg:min-h-[735px] xl:min-h-[calc(100dvh-80px)]">
       <Image
         src={banner}
         className="object-cover object-center"
