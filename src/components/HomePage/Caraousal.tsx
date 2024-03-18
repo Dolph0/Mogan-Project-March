@@ -1,7 +1,6 @@
 "use client";
-import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 type Props = {};
 
@@ -19,13 +18,13 @@ const Caraousal = (props: Props) => {
         <img src="/BANNER WEB GESTIONA MOGAN .png" />
       </div>
       <div>
-        <img src="/Banner 2.png" />
+        <img src="/banner-two.png" />
       </div>
       <div>
-        <img src="/Banner 3.jpeg" />
+        <img src="/banner-three.png" />
       </div>
       <div>
-        <img src="/Banner 1.jpeg" />
+        <img src="/banner-four.png" />
       </div>
     </Carousel>
   );

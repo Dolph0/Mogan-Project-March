@@ -1,15 +1,19 @@
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
 
 type Props = {
   title: string;
   subtitle: string;
   imageUrl: string;
+  link: string;
 };
 
-const LinkedSections = ({ title, subtitle, imageUrl }: Props) => {
+const LinkedSections = ({ title, subtitle, imageUrl, link }: Props) => {
   return (
-    <div className="flex flex-col mt-6">
+    <Link
+      href={link}
+      className="flex flex-col mt-6 hover:scale-105 transition-all duration-300"
+    >
       <div>
         <Image
           alt="title"
@@ -28,7 +32,7 @@ const LinkedSections = ({ title, subtitle, imageUrl }: Props) => {
           {subtitle}
         </p>
       </div>
-    </div>
+    </Link>
   );
 };
 

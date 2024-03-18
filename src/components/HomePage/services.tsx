@@ -1,6 +1,6 @@
-import Image from "next/image";
 import { cn } from "@/lib/cn";
-
+import Image from "next/image";
+import Link from "next/link";
 const Services = () => {
   const landingServices = [
     {
@@ -11,6 +11,7 @@ const Services = () => {
       icon: "/icons/pagos.svg",
       iconWidth: 58,
       iconHeight: 46,
+      link: "/pagos",
       iconClassName: "w-[31px] h-[25px] sm:w-[58px] sm:h-[46px]",
     },
     {
@@ -21,6 +22,7 @@ const Services = () => {
       icon: "/icons/home-percentage.svg",
       iconWidth: 60,
       iconHeight: 54,
+      link: "/simulador",
       iconClassName: "w-[34px] h-[31px] sm:w-[60px] sm:h-[54px]",
     },
     {
@@ -31,6 +33,7 @@ const Services = () => {
       icon: "/icons/home.svg",
       iconWidth: 60,
       iconHeight: 54,
+      link: "/oficina",
       iconClassName: "w-[31px] h-[28px] sm:w-[60px] sm:h-[54px]",
     },
     {
@@ -41,6 +44,7 @@ const Services = () => {
       icon: "/icons/calendar.svg",
       iconWidth: 54,
       iconHeight: 44,
+      link: "/calendario",
       iconClassName: "w-[30px] h-[23px] sm:w-[54px] sm:h-[44px]",
     },
     {
@@ -51,6 +55,7 @@ const Services = () => {
       icon: "/icons/write-doc.svg",
       iconWidth: 55,
       iconHeight: 55,
+      link: "/impresos",
       iconClassName: "w-[29px] h-[29px] sm:w-[55px] sm:h-[55px]",
     },
     {
@@ -61,6 +66,7 @@ const Services = () => {
       icon: "/icons/doc.svg",
       iconWidth: 46,
       iconHeight: 55,
+      link: "/portal",
       iconClassName: "w-[23px] h-[28px] sm:w-[46px] sm:h-[55px]",
     },
   ];
@@ -68,10 +74,11 @@ const Services = () => {
     <div className="flex w-full flex-col justify-center gap-7 py-5">
       <div className="grid w-full grid-cols-2 gap-x-3 gap-y-[10px]">
         {landingServices.map((item, index) => (
-          <div
+          <Link
+            href={item.link}
             key={index}
             className={cn(
-              "col-span-2 flex w-full items-center justify-start gap-7 px-5 py-2 sm:col-span-1 sm:px-9 sm:py-7 ",
+              "col-span-2 flex w-full items-center justify-start gap-7 px-5 py-2 sm:col-span-1 sm:px-9 sm:py-7 hover:scale-105 transition-all duration-300 ",
               item.bgColor,
               !index ? "sm:rounded-tl-[30px]" : "",
               index === 1 ? "sm:rounded-tr-[30px]" : "",
@@ -112,7 +119,7 @@ const Services = () => {
                 {item.description}
               </p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

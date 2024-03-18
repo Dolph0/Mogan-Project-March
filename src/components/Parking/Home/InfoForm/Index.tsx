@@ -68,7 +68,7 @@ export default function Index() {
   };
 
   return (
-    <section className="relative md:px-8">
+    <section className="relative md:px-8" id="reservas">
       <div className="absolute right-0 hidden md:block bottom-0 top-0 w-1/3 bg-brand-gray-light">
         <span className="sr-only">Right side bg</span>
       </div>

@@ -13,6 +13,7 @@ const config: Config = {
         dark: "#16214A",
         "brand-blue": "#004870",
         "brand-orange": "#EB6332",
+        "brand-gray-50": "#F5F5F5",
         "brand-gray-light": "#EEEEEE",
         "brand-gray": "#D9D9D9",
         "brand-gray-200": "#F6F6F6",
@@ -21,6 +22,7 @@ const config: Config = {
         "brand-teal": "#0096D3",
         "brand-teal-light": "#60BDE4",
         "brand-pink": "#D3008B",
+        "brand-red": "#E00B1A",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -1,6 +1,6 @@
 export default function Discount() {
   return (
-    <section className="max-[350px]:px-4 px-8 py-8 lg:py-12">
+    <section className="max-[350px]:px-4 px-8 py-8 lg:py-12" id="abonos">
       <div className="max-w-screen-xl mx-auto relative space-y-8">
         <h2 className="font-extrabold text-[30px] md:text-[42px] text-brand-blue text-center">
           Tarifas y Abonos
