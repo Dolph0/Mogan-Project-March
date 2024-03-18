@@ -1,8 +1,10 @@
+import MenuLink from "@/components/Shared/MenuLink";
 import banner from "@/public/images/parking/vehicle-stays/banner.png";
 import Image from "next/image";
 export default function Banner() {
   return (
     <section className="relative min-h-[225px] sm:min-h-[450px] lg:min-h-[680px] xl:min-h-screen">
+      <MenuLink />
       <Image
         src={banner}
         className="object-cover object-center"

@@ -81,6 +81,9 @@ export default function Fees() {
                     Simple: 3,50 € ud/día
                   </li>
                   <li className="font-light text-sm leading-[21px] text-white">
+                    Dobles: 20 € ud/día
+                  </li>
+                  <li className="font-light text-sm leading-[21px] text-white">
                     Sombrillas: 3,50 € ud/día
                   </li>
                 </ul>
@@ -98,6 +101,9 @@ export default function Fees() {
                     Simple: 3,50 € ud/día
                   </li>
                   <li className="font-light text-sm leading-[21px] text-white">
+                    Dobles: 20 € ud/día
+                  </li>
+                  <li className="font-light text-sm leading-[21px] text-white">
                     Sombrillas: 3,50 € ud/día
                   </li>
                 </ul>
@@ -113,6 +119,9 @@ export default function Fees() {
                 <ul className="list-disc mx-auto pl-6">
                   <li className="font-light text-sm leading-[21px] text-white">
                     Simple: 3,50 € ud/día
+                  </li>
+                  <li className="font-light text-sm leading-[21px] text-white">
+                    Dobles: 20 € ud/día
                   </li>
                   <li className="font-light text-sm leading-[21px] text-white">
                     Sombrillas: 3,50 € ud/día
@@ -166,6 +175,9 @@ export default function Fees() {
                     Simple: 3,50 € ud/día
                   </li>
                   <li className="font-light text-sm leading-[21px] text-white">
+                    Dobles: 20 € ud/día
+                  </li>
+                  <li className="font-light text-sm leading-[21px] text-white">
                     Sombrillas: 3,50 € ud/día
                   </li>
                 </ul>
@@ -215,6 +227,9 @@ export default function Fees() {
                 <ul className="list-disc mx-auto pl-6">
                   <li className="font-light text-sm leading-[21px] text-white">
                     Simple: 3,50 € ud/día
+                  </li>
+                  <li className="font-light text-sm leading-[21px] text-white">
+                    Dobles: 20 € ud/día
                   </li>
                   <li className="font-light text-sm leading-[21px] text-white">
                     Sombrillas: 3,50 € ud/día
