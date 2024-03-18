@@ -7,54 +7,110 @@ export default function Fees() {
       beachePrefix: "Playa",
       arc: null,
       className: "",
+      data: {
+        name: "Hamacas y sobrillas",
+        prices: [
+          "Simple: 3,50 € ud/día",
+          "Dobles: 20 € ud/día",
+          "Sombrillas: 3,50 € ud/día",
+        ],
+      },
     },
     {
       beacheName: "Taurito",
       beachePrefix: "Playa",
       arc: "right",
       className: "",
+      data: {
+        name: "Hamacas y sobrillas",
+        prices: [
+          "Simple: 3,50 € ud/día",
+          "Dobles: 20 € ud/día",
+          "Sombrillas: 3,50 € ud/día",
+        ],
+      },
     },
     {
       beacheName: "Cura",
       beachePrefix: "Playa del",
       arc: null,
       className: "",
+      data: {
+        name: "Hamacas y sobrillas",
+        prices: [
+          "Simple: 3,50 € ud/día",
+          "Dobles: 20 € ud/día",
+          "Sombrillas: 3,50 € ud/día",
+        ],
+      },
     },
     {
       beacheName: "Rico",
       beachePrefix: "Puerto",
       arc: "left",
       className: "",
+      data: {
+        name: "Hamacas y sobrillas",
+        prices: ["Simple: 3,50 € ud/día", "Sombrillas: 3,50 € ud/día"],
+      },
     },
     {
       beacheName: "Aquamarina",
       beachePrefix: "Playa del",
       arc: null,
       className: "",
+      data: {
+        name: "Hamacas y sobrillas",
+        prices: ["Simple: 3,50 € ud/día", "Sombrillas: 3,50 € ud/día"],
+      },
     },
     {
       beacheName: "Patalavaca",
       beachePrefix: "Playa de",
       arc: "right",
       className: "",
+      data: {
+        name: "Hamacas y sobrillas",
+        prices: ["Simple: 3,50 € ud/día", "Sombrillas: 3,50 € ud/día"],
+      },
     },
     {
       beacheName: "Costa Alegre",
       beachePrefix: "Playa de",
       arc: "",
       className: "",
+      data: {
+        name: "Hamacas y sobrillas",
+        prices: [
+          "Simple: 3,50 € ud/día",
+          "Dobles: 20 € ud/día",
+          "Sombrillas: 3,50 € ud/día",
+        ],
+      },
     },
     {
       beacheName: "Marañuelas",
       beachePrefix: "Playa de",
       arc: "left",
       className: "",
+      data: {
+        name: "Hamacas y sobrillas",
+        prices: ["Simple: 3,50 € ud/día", "Sombrillas: 3,50 € ud/día"],
+      },
     },
     {
       beacheName: "El Perchel",
       beachePrefix: "Playa",
       arc: "",
       className: "",
+      data: {
+        name: "Hamacas y sobrillas",
+        prices: [
+          "Simple: 3,50 € ud/día",
+          "Dobles: 20 € ud/día",
+          "Sombrillas: 3,50 € ud/día",
+        ],
+      },
     },
   ];
   return (
@@ -259,15 +315,14 @@ export default function Fees() {
             </div>
             <div className="relative bg-[#004870] flex flex-col items-center justify-center px-6 py-7 sm:p-6 rounded-[20px] ">
               <p className="font-bold text-white text-sm leading-[21px] text-left ml-[-70px]">
-                Hamacas y sobrillas
+                {charge.data.name}
               </p>
               <ul className="list-disc mx-auto">
-                <li className="font-light text-sm leading-[21px] text-white">
-                  Simple: 3,50 € ud/día
-                </li>
-                <li className="font-light text-sm leading-[21px] text-white">
-                  Sombrillas: 3,50 € ud/día
-                </li>
+                {charge.data.prices.map((price, index) => (
+                  <li className="font-light text-sm leading-[21px] text-white">
+                    {price}
+                  </li>
+                ))}
               </ul>
               {charge.arc && (
                 <Image
