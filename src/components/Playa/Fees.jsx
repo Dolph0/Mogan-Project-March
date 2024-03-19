@@ -319,7 +319,7 @@ export default function Fees() {
               </p>
               <ul className="list-disc mx-auto">
                 {charge.data.prices.map((price, index) => (
-                  <li className="font-light text-sm leading-[21px] text-white">
+                  <li className="font-light text-sm leading-[21px] text-white" key={index}>
                     {price}
                   </li>
                 ))}
