@@ -32,7 +32,7 @@ const page = (props: Props) => {
               </p>
             </div>
           </div>
-          <div className="rounded-tl-3xl bg-[#2FAF7E] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center">
+          <div className="rounded-tl-3xl bg-[#3ED39A] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center">
             <Image
               src="/icons/pagos.svg"
               alt={"service icon"}
