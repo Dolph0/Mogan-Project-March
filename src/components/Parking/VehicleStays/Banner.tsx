@@ -1,5 +1,5 @@
 import MenuLink from "@/components/Shared/MenuLink";
-import banner from "@/public/images/parking/vouchers/banner.png";
+import banner from "@/public/images/parking/vehicle-stays/banner.png";
 import Image from "next/image";
 export default function Banner() {
   return (
@@ -11,11 +11,11 @@ export default function Banner() {
         alt={"video imag"}
         fill
       />
-      <div className="bg-banner-two relative px-8 max-sm:flex items-center max-sm:min-h-[330px]  pt-6 lg:pt-8 xl:pt-10  ">
+      <div className="bg-banner-two relative px-8  max-sm:min-h-[330px]  pt-14 lg:pt-8 xl:pt-10 sm:pb-20">
         <div className="w-full sm:max-w-screen-xl mx-auto ">
-          <p className=" text-[30px] sm:text-[65px] lg:text-[96px] font-extrabold leading-none  text-brand-blue">
-            Tus clientes <br /> se merecen
-            <span className="text-brand-orange"> tiempo</span>
+          <p className=" text-[30px] sm:text-[65px] lg:text-[96px] font-extrabold leading-none text-white">
+            Estancias <br />
+            para vehículos
           </p>
         </div>
       </div>

@@ -1,9 +1,10 @@
 "use client";
-import React, { useEffect } from "react";
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
+import Link from "next/link";
+import { useEffect } from "react";
 
 const user = {
   name: "Tom Cook",
@@ -12,11 +13,12 @@ const user = {
     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
 };
 const navigation = [
-  { name: "Gestiona Mogán", href: "#", current: false },
-  { name: "Playas", href: "#", current: true },
-  { name: "Parking", href: "#", current: false },
-  { name: "Zona azul", href: "#", current: false },
-  { name: "VPO", href: "#", current: false },
+  { name: "Trámites frecuentes", href: "#", current: false },
+  { name: "Portal de transparencia", href: "#", current: true },
+  { name: "Servicios", href: "#", current: false },
+  { name: "Parking", href: "/parking", current: false },
+  { name: "Noticias", href: "#", current: false },
+  { name: "FAQ", href: "#", current: false },
 ];
 const userNavigation = [
   { name: "Your Profile", href: "#" },
@@ -30,26 +32,26 @@ function classNames(...classes: any[]) {
 type Props = {};
 
 const Navbar = (props: Props) => {
-  const googleTranslateElementInit = () => {
-    new window.google.translate.TranslateElement(
-      {
-        pageLanguage: "auto",
-        autoDisplay: false,
-        includedLanguages: "ru,en,pl,es", // If you remove it, by default all google supported language will be included
-        // layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-      },
-      "google_translate_element"
-    );
-  };
-  useEffect(() => {
-    var addScript = document.createElement("script");
-    addScript.setAttribute(
-      "src",
-      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-    );
-    document.body.appendChild(addScript);
-    window.googleTranslateElementInit = googleTranslateElementInit;
-  }, []);
+  // const googleTranslateElementInit = () => {
+  //   new window.google.translate.TranslateElement(
+  //     {
+  //       pageLanguage: "auto",
+  //       autoDisplay: false,
+  //       includedLanguages: "ru,en,pl,es", // If you remove it, by default all google supported language will be included
+  //       // layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+  //     },
+  //     "google_translate_element"
+  //   );
+  // };
+  // useEffect(() => {
+  //   var addScript = document.createElement("script");
+  //   addScript.setAttribute(
+  //     "src",
+  //     "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+  //   );
+  //   document.body.appendChild(addScript);
+  //   window.googleTranslateElementInit = googleTranslateElementInit;
+  // }, []);
   return (
     <Disclosure as="header" className="bg-white ">
       {({ open }) => (
@@ -73,12 +75,12 @@ const Navbar = (props: Props) => {
               </div>
               <div className="relative z-0 flex flex-1 items-center justify-end px-2 sm:absolute sm:inset-0">
                 <div className="flex flex-col items-end">
-                  <div className="w-full sm:max-w-xs  ">
+                  <div className="w-full sm:max-w-xs  pr-10 ">
                     <label htmlFor="search" className="sr-only">
                       Search
                     </label>
                     <div className="relative">
-                      <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                      <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
                         <MagnifyingGlassIcon
                           className="h-5 w-5 text-gray-400"
                           aria-hidden="true"
@@ -87,24 +89,33 @@ const Navbar = (props: Props) => {
                       <input
                         id="search"
                         name="search"
-                        className="block w-full rounded-md border-0 bg-white py-1.5 pl-10 pr-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                        placeholder="Search"
+                        className="block w-full rounded-md border border-black/30 bg-brand-gray-50  py-1.5 pl-3 pr-10   text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-0 focus:ring-inset focus:outline-none  sm:text-sm sm:leading-6"
+                        placeholder="Buscar"
                         type="search"
                       />
                     </div>
                   </div>
-                  <div className="hidden md:block">
-                    <ul className="flex">
+                  <div className="hidden md:flex gap-5 items-center pt-2">
+                    <ul className="flex items-center gap-4">
                       {navigation.map((item, key) => (
                         <li
-                          className="font-sans text-base text-[#004870]"
+                          className="font-sans text-base text-[#004870] after:content-['|'] after:-right-2.5 last:after:opacity-0 after:absolute relative"
                           key={key}
                         >
-                          {" "}
-                          {item.name} | &nbsp;
+                          <Link href={item.href}>{item.name}</Link>
                         </li>
                       ))}
                     </ul>
+                    <button type="button" className="size-[21px]">
+                      <Image
+                        alt="title"
+                        src="/español.png"
+                        className="size-[21px]  rounded-full"
+                        layout="cover"
+                        width={21}
+                        height={21}
+                      />
+                    </button>
                   </div>
                 </div>
               </div>

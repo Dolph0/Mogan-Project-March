@@ -149,12 +149,12 @@ const Footer = () => {
                 <h4 className="font-extrabold text-white text-sm sm:text-xl leading-5 sm:leading-[30px]">
                   {item.sectionTitle}
                 </h4>
-                <div className="flex flex-col items-start justify-start">
+                <div className="flex flex-col items-start justify-start gap-0.5">
                   {item.links.map((link, index) => (
                     <Link
                       key={"link " + index}
                       href={link.url}
-                      className="font-normal text-[13px] text-white leading-5 "
+                      className="font-normal text-[13px] text-white leading-5  hover:underline"
                     >
                       {link.text}
                     </Link>

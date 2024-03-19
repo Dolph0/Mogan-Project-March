@@ -1,4 +1,5 @@
 import blogImgOne from "@/public/images/parking/meter/blog-img-1.png";
+import blogImgTwo from "@/public/images/parking/meter/blog-img-2.png";
 import Image from "next/image";
 export default function Content() {
   return (
@@ -40,19 +41,21 @@ export default function Content() {
               <span className="sr-only">overlay</span>
             </div>
             <Image
-              src={blogImgOne}
+              src={blogImgTwo}
               className="object-cover h-full object-center w-full"
               alt={"Blog Img"}
             />
           </div>
           <div className="space-y-3 pt-6 sm:pt-8 sm:pl-8 xl:pl-20 sm:pr-8 xl:pr-28">
             <h2 className="font-extrabold max-[400px]:text-xl text-2xl md:text-3xl lg:text-[42px] !leading-[1.3] text-brand-teal">
-              Pagos infracciones
+              Publicidad exterior
             </h2>
             <p className="text-sm text-dark max-[430px]:text-justify min-h-[80px] sm:min-h-[100px]">
-              Si te has excedido en tiempo y tienes que pagar una multa de la
-              zona azul, puedes hacerlo en el propio parquímetro o directamente
-              desde nuestra web ¡Fácil, rápido y cómodo!
+              ¿Quieres que te vean a pié de calle o en áreas transitables?
+              <br />
+              <br />
+              Coloca tu publicidad en uno de los laterales reservados para este
+              espacio en los parquímetros de Mogán y atrapa todas las miradas.
             </p>
             <div className="flex justify-end pt-3 sm:pt-4">
               <a
