@@ -7,7 +7,7 @@ export default function Info() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-14 items-center">
           <div className="space-y-6">
             <h2 className="  font-extrabold max-[400px]:text-xl text-2xl md:text-[42px] leading-[1.2] text-brand-teal">
-              Estacionamiento regulado
+              Zona azul
             </h2>
             <p className="text-sm text-dark max-[430px]:text-justify">
               En Mogán se pueden encontrar dos zonas principales de
