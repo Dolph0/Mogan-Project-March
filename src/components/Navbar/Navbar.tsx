@@ -32,26 +32,26 @@ function classNames(...classes: any[]) {
 type Props = {};
 
 const Navbar = (props: Props) => {
-  const googleTranslateElementInit = () => {
-    new window.google.translate.TranslateElement(
-      {
-        pageLanguage: "auto",
-        autoDisplay: false,
-        includedLanguages: "ru,en,pl,es", // If you remove it, by default all google supported language will be included
-        // layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-      },
-      "google_translate_element"
-    );
-  };
-  useEffect(() => {
-    var addScript = document.createElement("script");
-    addScript.setAttribute(
-      "src",
-      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-    );
-    document.body.appendChild(addScript);
-    window.googleTranslateElementInit = googleTranslateElementInit;
-  }, []);
+  // const googleTranslateElementInit = () => {
+  //   new window.google.translate.TranslateElement(
+  //     {
+  //       pageLanguage: "auto",
+  //       autoDisplay: false,
+  //       includedLanguages: "ru,en,pl,es", // If you remove it, by default all google supported language will be included
+  //       // layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+  //     },
+  //     "google_translate_element"
+  //   );
+  // };
+  // useEffect(() => {
+  //   var addScript = document.createElement("script");
+  //   addScript.setAttribute(
+  //     "src",
+  //     "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+  //   );
+  //   document.body.appendChild(addScript);
+  //   window.googleTranslateElementInit = googleTranslateElementInit;
+  // }, []);
   return (
     <Disclosure as="header" className="bg-white ">
       {({ open }) => (
@@ -109,7 +109,7 @@ const Navbar = (props: Props) => {
                     <button type="button" className="size-[21px]">
                       <Image
                         alt="title"
-                        src="/aleman.png"
+                        src="/español.png"
                         className="size-[21px]  rounded-full"
                         layout="cover"
                         width={21}
