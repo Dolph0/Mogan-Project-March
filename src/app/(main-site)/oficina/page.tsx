@@ -1,5 +1,6 @@
 import Caraousal from "@/components/HomePage/Caraousal";
 import Image from "next/image";
+import Link from "next/link";
 type Props = {};
 const page = (props: Props) => {
   return (
@@ -7,15 +8,18 @@ const page = (props: Props) => {
       <Caraousal />
       <div className="pt-12 pb-12 sm:pb-20 space-y-6">
         <div className="space-y-1">
-          <h2 className="font-extrabold text-center text-3xl lg:text-[42px] text-brand-blue">
+          <h2 className="font-extrabold text-center text-xl sm:text-3xl lg:text-[42px] text-brand-blue">
             Oficina Tributaria
           </h2>
-          <p className="text-center text-brand-blue text-xl lg:text-2xl">
+          <p className="text-center text-brand-blue text-base sm:text-xl lg:text-2xl">
             Oficina Virtual Tributaria
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-8 pt-8  lg:pt-14 pb-10 sm:pb-16 xl:pb-20">
-          <div className="rounded-tl-3xl bg-[#FABD05] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center">
+          <Link
+            href="/pagar"
+            className="rounded-tl-3xl bg-[#FABD05] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center hover:scale-105 transition-all duration-300"
+          >
             <Image
               src="/icons/pagos.svg"
               alt={"pagar"}
@@ -28,8 +32,11 @@ const page = (props: Props) => {
               </h3>
               <p className="text-[#0B5438] text-[15px] ">Sin Certificado</p>
             </div>
-          </div>
-          <div className="rounded-tl-3xl bg-[#FABD05] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl bg-[#FABD05] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center hover:scale-105 transition-all duration-300"
+          >
             <Image
               src="/icons/file-icon.svg"
               alt={"pagar"}
@@ -42,8 +49,11 @@ const page = (props: Props) => {
               </h3>
               <p className="text-[#0B5438] text-[15px] ">Con Certificado</p>
             </div>
-          </div>
-          <div className="rounded-tl-3xl bg-[#FABD05] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl bg-[#FABD05] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center hover:scale-105 transition-all duration-300"
+          >
             <Image
               src="/icons/home-icon.svg"
               alt={"pagar"}
@@ -55,8 +65,11 @@ const page = (props: Props) => {
                 INMUEBLES
               </h3>
             </div>
-          </div>
-          <div className="rounded-tl-3xl bg-[#FABD05] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl bg-[#FABD05] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center hover:scale-105 transition-all duration-300"
+          >
             <Image
               src="/icons/car-icon.svg"
               alt={"pagar"}
@@ -68,8 +81,11 @@ const page = (props: Props) => {
                 VEHÍCULOS
               </h3>
             </div>
-          </div>
-          <div className="rounded-tl-3xl bg-[#FABD05] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl bg-[#FABD05] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center hover:scale-105 transition-all duration-300"
+          >
             <Image
               src="/icons/domic.svg"
               alt={"pagar"}
@@ -81,8 +97,11 @@ const page = (props: Props) => {
                 DOMICILIACIONES
               </h3>
             </div>
-          </div>
-          <div className="rounded-tl-3xl bg-[#FABD05] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl bg-[#FABD05] py-5 sm:py-6 px-5 sm:px-8 flex gap-4 items-center hover:scale-105 transition-all duration-300"
+          >
             <Image
               src="/icons/card-address.svg"
               alt={"card-address"}
@@ -94,7 +113,7 @@ const page = (props: Props) => {
                 DATOS PERSONALES
               </h3>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

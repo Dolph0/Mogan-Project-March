@@ -33,6 +33,9 @@ const config: Config = {
         "banner-two":
           "linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.35) 100%)",
       },
+      boxShadow: {
+        "3xl": "0 4px 4px 0 rgba(0,0,0,0.25)",
+      },
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
       },

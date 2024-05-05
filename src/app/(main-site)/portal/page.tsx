@@ -1,5 +1,6 @@
 import Accordion from "@/components/Accordion";
 import Caraousal from "@/components/HomePage/Caraousal";
+import Link from "next/link";
 type Props = {};
 const page = (props: Props) => {
   return (
@@ -7,13 +8,13 @@ const page = (props: Props) => {
       <Caraousal />
       <div className="pt-12 pb-12 sm:pb-20 space-y-8">
         <div className="space-y-1">
-          <h2 className="font-extrabold text-center text-3xl lg:text-[42px] text-brand-blue">
+          <h2 className="font-extrabold text-center text-xl sm:text-3xl lg:text-[42px] text-brand-blue">
             Portal de transparencia
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 pt-6 lg:pt-16">
           <div className="md:col-span-7  ">
-            <p>
+            <p className="text-base lg:text-lg  text-black">
               Mogan Gestión Municipal pone a disposición de la ciudadanía este
               Portal de Transparencia para que acceda a la información pública
               de forma fácil y sencilla. La ciudadanía tiene derecho a saber y a
@@ -49,51 +50,85 @@ const page = (props: Props) => {
           </div>
         </div>
         <div className="pt-6 lg:pt-14 grid gap-4 sm:gap-8 grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
-          <div className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9]">
+          <Link
+            href="#"
+            className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
+          >
             <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
               Información Institucional
             </p>
-          </div>
-          <div className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9]">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
+          >
             <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
               Órganos directivos
             </p>
-          </div>
-          <div className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9]">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
+          >
             <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
               Contratos y encomiendas
             </p>
-          </div>
-          <div className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#5698FB]">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
+          >
             <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
               Empleados
             </p>
-          </div>
-          <div className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#5698FB]">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
+          >
             <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
               Retribuciones
             </p>
-          </div>
-          <div className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#5698FB]">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
+          >
             <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
               Economía y contabilidad
             </p>
-          </div>
-          <div className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#5698FB]">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
+          >
             <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
               Personal libre nombramiento y confianza
             </p>
-          </div>
-          <div className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#5698FB]">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
+          >
             <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
               Acceso a la información
             </p>
-          </div>
-          <div className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#5698FB]">
+          </Link>
+          <Link
+            href="#"
+            className="rounded-tl-3xl px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
+          >
             <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
               Informe, mapa e índice de transparencia
             </p>
-          </div>
+          </Link>
+        </div>
+        <div className="pt-20 pb-10">
+          <p className="text-base lg:text-lg text-black text-center">
+            Fecha de la{" "}
+            <strong>última modificación del portal de transparencia</strong>{" "}
+            17/10/23
+          </p>
         </div>
       </div>
     </div>
