@@ -143,7 +143,7 @@ const page = (props: Props) => {
           </div>
 
           <div>
-            <div className="prose pb-4 prose-p:text-sm prose-h3:p-0  prose-img:m-0 prose-h3:my-2 max-w-full prose-h3:text-sm lg:prose-h3:text-lg prose-img:inline-block">
+            <div className="prose pb-4 max-w-[885px] prose-p:text-sm prose-h3:p-0  prose-img:m-0 prose-h3:my-2 prose-h3:text-sm lg:prose-h3:text-lg prose-img:inline-block">
               <h3>
                 <strong>
                   <span lang="ES">El</span>
@@ -234,6 +234,90 @@ const page = (props: Props) => {
               </tbody>
             </table>
           </div>
+          <div>
+            <div className="prose pb-4 max-w-[885px] prose-p:text-sm prose-h3:p-0  prose-img:m-0 prose-h3:my-2 prose-h3:text-sm lg:prose-h3:text-lg prose-img:inline-block">
+              <h3>
+                <strong>
+                  <span lang="ES">El</span>
+                  <span lang="ES">
+                    Gasto efectuado en concepto de arrendamiento de bienes
+                    inmuebles. El gasto en arrendamiento de Mogan Gestión
+                    Municipal ha sido de:
+                    <a href="https://www.gestmogan.com/wp-content/uploads/2024/02/Informacion-de-economia-y-contabilidad_V2.pdf">
+                      <img
+                        loading="lazy"
+                        className="alignnone"
+                        src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-pdf-48.png"
+                        alt=""
+                        width="20"
+                        height="20"
+                      />
+                    </a>
+                    <a href="https://www.gestmogan.com/wp-content/uploads/2024/02/Informacion-de-economia-y-contabilidad_V2.ods">
+                      <img
+                        loading="lazy"
+                        className="alignnone"
+                        src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-odt-48.png"
+                        alt=""
+                        width="20"
+                        height="20"
+                      />
+                    </a>
+                    <a href="https://www.gestmogan.com/wp-content/uploads/2024/02/Informacion-de-economia-y-contabilidad_V2.xlsx">
+                      <img
+                        loading="lazy"
+                        className="alignnone"
+                        src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-microsoft-word-2019-48.png"
+                        alt=""
+                        width="20"
+                        height="20"
+                      />
+                    </a>
+                  </span>
+                </strong>
+              </h3>
+            </div>
+            <table className="w-full border border-brand-gray-20 max-w-[600px] ">
+              <thead>
+                <tr className="bg-brand-gray-25 divide-x divide-brand-gray-20">
+                  <th className="px-4 py-3 text-base text-left font-semibold text-gray-600 w-8/12">
+                    EJERCICIO
+                  </th>
+                  <th className="px-4 py-3 text-base text-left font-semibold text-gray-600">
+                    GASTO
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-brand-gray-20 ">
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
+                  <td className="px-4 py-2 text-left">2022 </td>
+                  <td className="px-4 py-2 text-left">37.924,56 €</td>
+                </tr>
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
+                  <td className="px-4 py-2 text-left">2023 </td>
+                  <td className="px-4 py-2 text-left">40.086,24 € </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <article className="prose max-w-[1100px] prose-sm">
+            <p>
+              Gasto efectuado en concepto de patrocinio y campañas de publicidad
+              institucional.
+            </p>
+            <p>
+              La entidad no ha efectuado gasto alguno en los años
+              2020-2021-2022-2023 en concepto de patrocinio ni en campañas de
+              publicidad institucional
+            </p>
+            <p>
+              Gasto total efectuado en concepto de ayudas y subvenciones para
+              actividades económicas. <br />
+              Mogán Gestión Municipal no ha efectuado gastos en concepto de
+              ayudas ni subvenciones para actividades económicas durante los
+              años 2020-2021-2022-2023
+            </p>
+          </article>
         </div>
         <div className="pt-4 md:pt-20  md:pb-10">
           <p className="text-[10px] sm:text-base lg:text-lg text-black text-center">
