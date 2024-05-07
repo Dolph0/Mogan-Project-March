@@ -47,7 +47,7 @@ const page = (props: Props) => {
             <Tabs items={tabItems} />
           </div>
           <div>
-            <div className="prose max-w-full prose-h3:text-sm lg:prose-h3:text-lg prose-img:inline-block">
+            <div className="prose max-w-full prose-h3:text-sm prose-img:m-0 pb-4 lg:prose-h3:text-lg prose-img:inline-block">
               <h3>
                 <strong>
                   <span lang="ES">El</span>
@@ -103,40 +103,133 @@ const page = (props: Props) => {
                 </tr>
               </thead>
               <tbody className="divide-y divide-brand-gray-20 ">
-                <tr className="odd:bg-white even:bg-brand-gray-25 divide-x divide-brand-gray-20">
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
                   <td className="px-4 py-3 text-center">2017 </td>
                   <td className="px-4 py-3 text-center">1.118.931,63 € </td>
                   <td className="px-4 py-3 text-center">67% </td>
                 </tr>
-                <tr className="odd:bg-white even:bg-brand-gray-25 divide-x divide-brand-gray-20">
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
                   <td className="px-4 py-3 text-center">2018 </td>
                   <td className="px-4 py-3 text-center">1.169.520,23 € </td>
                   <td className="px-4 py-3 text-center">67% </td>
                 </tr>
-                <tr className="odd:bg-white even:bg-brand-gray-25 divide-x divide-brand-gray-20">
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
                   <td className="px-4 py-3 text-center">2019 </td>
                   <td className="px-4 py-3 text-center">1.193.825,89 € </td>
                   <td className="px-4 py-3 text-center">2019 % </td>
                 </tr>
-                <tr className="odd:bg-white even:bg-brand-gray-25 divide-x divide-brand-gray-20">
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
                   <td className="px-4 py-3 text-center">2020 </td>
                   <td className="px-4 py-3 text-center"> 1.326.665,33 € </td>
                   <td className="px-4 py-3 text-center">71% </td>
                 </tr>
-                <tr className="odd:bg-white even:bg-brand-gray-25 divide-x divide-brand-gray-20">
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
                   <td className="px-4 py-3 text-center">2021 </td>
                   <td className="px-4 py-3 text-center">1.389.636,65 € </td>
                   <td className="px-4 py-3 text-center">69% </td>
                 </tr>
-                <tr className="odd:bg-white even:bg-brand-gray-25 divide-x divide-brand-gray-20">
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
                   <td className="px-4 py-3 text-center">2022 </td>
                   <td className="px-4 py-3 text-center">1.630.933,23 €</td>
                   <td className="px-4 py-3 text-center">65% </td>
                 </tr>
-                <tr className="odd:bg-white even:bg-brand-gray-25 divide-x divide-brand-gray-20">
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
                   <td className="px-4 py-3 text-center">2023 </td>
                   <td className="px-4 py-3 text-center">2.793.367,43 €</td>
                   <td className="px-4 py-3 text-center">71% </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div>
+            <div className="prose pb-4 prose-p:text-sm prose-h3:p-0  prose-img:m-0 prose-h3:my-2 max-w-full prose-h3:text-sm lg:prose-h3:text-lg prose-img:inline-block">
+              <h3>
+                <strong>
+                  <span lang="ES">El</span>
+                  <span lang="ES">
+                    Período medio de pago a proveedores 2017 hasta el 2023
+                    <a href="https://www.gestmogan.com/wp-content/uploads/2024/02/Informacion-de-economia-y-contabilidad_V2.pdf">
+                      <img
+                        loading="lazy"
+                        className="alignnone"
+                        src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-pdf-48.png"
+                        alt=""
+                        width="20"
+                        height="20"
+                      />
+                    </a>
+                    <a href="https://www.gestmogan.com/wp-content/uploads/2024/02/Informacion-de-economia-y-contabilidad_V2.ods">
+                      <img
+                        loading="lazy"
+                        className="alignnone"
+                        src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-odt-48.png"
+                        alt=""
+                        width="20"
+                        height="20"
+                      />
+                    </a>
+                    <a href="https://www.gestmogan.com/wp-content/uploads/2024/02/Informacion-de-economia-y-contabilidad_V2.xlsx">
+                      <img
+                        loading="lazy"
+                        className="alignnone"
+                        src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-microsoft-word-2019-48.png"
+                        alt=""
+                        width="20"
+                        height="20"
+                      />
+                    </a>
+                  </span>
+                </strong>
+              </h3>
+              <p>
+                De acuerdo con la Resolución del Instituto de Contabilidad y
+                Auditoróa de Cuentas, sobre la información a incorporar en las
+                memorias de las cuentas anuales abreviadas en relación con el
+                periodo medio de pago a proveedores en operaciones comerciales,
+                nos han informado de lo siguiente:
+              </p>
+            </div>
+            <table className="w-full border border-brand-gray-20 ">
+              <thead>
+                <tr className="bg-brand-gray-25 divide-x divide-brand-gray-20">
+                  <th className="px-4 py-1 text-base font-semibold text-gray-600">
+                    AÑO
+                  </th>
+                  <th className="px-4 py-1 text-base font-semibold text-gray-600">
+                    PERIODO MEDIO DE <br />
+                    PAGO A PROVEEDORES (EN DIAS)
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-brand-gray-20 ">
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
+                  <td className="px-4 py-2 text-center">2017 </td>
+                  <td className="px-4 py-2 text-center">31,14 </td>
+                </tr>
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
+                  <td className="px-4 py-2 text-center">2018 </td>
+                  <td className="px-4 py-2 text-center">27,76 </td>
+                </tr>
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
+                  <td className="px-4 py-2 text-center">2019 </td>
+                  <td className="px-4 py-2 text-center">24,29 </td>
+                </tr>
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
+                  <td className="px-4 py-2 text-center">2020 </td>
+                  <td className="px-4 py-2 text-center">21,29 </td>
+                </tr>
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
+                  <td className="px-4 py-2 text-center">2021 </td>
+                  <td className="px-4 py-2 text-center">17,38 </td>
+                </tr>
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
+                  <td className="px-4 py-2 text-center">2022 </td>
+                  <td className="px-4 py-2 text-center">14,63 </td>
+                </tr>
+                <tr className="odd:bg-white even:bg-brand-gray-25 hover:bg-brand-gray-50 divide-x divide-brand-gray-20">
+                  <td className="px-4 py-2 text-center">2023 </td>
+                  <td className="px-4 py-2 text-center">14,13 </td>
                 </tr>
               </tbody>
             </table>
