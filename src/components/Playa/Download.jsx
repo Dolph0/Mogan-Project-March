@@ -66,9 +66,6 @@ export default function Download() {
             width={150}
             height={150}
           />
-          <p className="font-extrabold text-white text-[42px] leading-[63px] text-center rotate-[12deg] z-20">
-            APP
-          </p>
         </div>
       </div>
       <div className="w-full  bg-[#004870] px-8 pb-[70px] sm:pb-[174px] pt-[46px] sm:pt-[35px] gap-[30px] sm:gap-[52px]">

@@ -4,7 +4,6 @@ import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect } from "react";
 
 const user = {
   name: "Tom Cook",
@@ -18,7 +17,7 @@ const navigation = [
   { name: "Servicios", href: "#", current: false },
   { name: "Parking", href: "/parking", current: false },
   { name: "Noticias", href: "#", current: false },
-  { name: "FAQ", href: "#", current: false },
+  { name: "FAQ", href: "/faq", current: false },
 ];
 const userNavigation = [
   { name: "Your Profile", href: "#" },
@@ -59,7 +58,7 @@ const Navbar = (props: Props) => {
           <div className="mx-auto max-w-7xl px-2 sm:px-4 lg:divide-y lg:divide-gray-200 lg:px-8 mt-2">
             <div className="relative flex h-20 justify-between">
               <div className="relative z-10 flex px-2 lg:px-0">
-                <div className="flex flex-shrink-0 items-center">
+                <Link href="/" className="flex flex-shrink-0 items-center">
                   <img
                     className="h-12 md:h-16 w-auto"
                     src="/Logo MG.svg"
@@ -71,7 +70,7 @@ const Navbar = (props: Props) => {
                     alt="Your Company"
                   />
                   <div id="google_translate_element" className="w-48"></div>
-                </div>
+                </Link>
               </div>
               <div className="relative z-0 flex flex-1 items-center justify-end px-2 sm:absolute sm:inset-0">
                 <div className="flex flex-col items-end">
