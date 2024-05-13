@@ -1,26 +1,36 @@
-import React from "react";
-
+import Image from "next/image";
+import Link from "next/link";
 type Props = {
   title: string;
   subtitle: string;
   imgSrc: string;
+  slug: string;
 };
 
 const Card = (props: Props) => {
   return (
-    <div className="min-h-60 w-72 bg-[#004870] rounded-2xl flex flex-col justify-between mt-6">
+    <div className="  bg-[#004870] overflow-hidden rounded-2xl ">
       <div className="">
-        <img
-          src={props.imgSrc}
-          className="pt-3 h-36  w-full object-cover"
-          alt=""
-        />
+        <Link href={`/blog/${props.slug}`}>
+          <Image
+            src={props.imgSrc}
+            alt={props.title}
+            className="w-full h-48 object-center object-cover"
+            height="500"
+            width="600"
+          />
+        </Link>
       </div>
-      <div className="flex flex-col gap-1 text-center pb-10">
-        <h1 className=" text-white font-extrabold text-xl font-sans mx-3 mt-3">
-          {props.title}
-        </h1>
-        <p className=" text-white font-normal text-sm font-sans text-center mx-3 mt-3">
+      <div className="pb-10 px-4 sm:px-6 pt-4 space-y-3">
+        <h2 className="line-clamp-2">
+          <Link
+            href={`/blog/${props.slug}`}
+            className="text-white block font-semibold text-xl font-sans "
+          >
+            {props.title}
+          </Link>
+        </h2>
+        <p className=" text-white font-normal text-sm font-sans line-clamp-3">
           {props.subtitle}
         </p>
       </div>

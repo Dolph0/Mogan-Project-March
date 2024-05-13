@@ -7,10 +7,10 @@ const page = (props: Props) => {
       <Caraousal />
       <div className="pt-12 pb-12 sm:pb-20 space-y-6">
         <div className="space-y-1">
-          <h2 className="font-extrabold text-center text-3xl lg:text-[42px] text-brand-blue">
+          <h2 className="font-extrabold text-center text-xl sm:text-3xl lg:text-[42px] text-brand-blue">
             Calendario Fiscal 2024
           </h2>
-          <p className="text-center text-brand-blue text-xl lg:text-2xl">
+          <p className="text-center text-brand-blue text-base sm:text-xl lg:text-2xl">
             Consulta plazos de pagos voluntarios
           </p>
         </div>

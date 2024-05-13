@@ -3,7 +3,7 @@ export default function TaxRate() {
   return (
     <section className="px-8 pt-10 pb-6 lg:py-12 ">
       <div className="max-w-screen-xl mx-auto space-y-6 sm:space-y-12">
-        <div className="space-y-3">
+        <div className="space-y-0.5 sm:space-y-3">
           <h2 className="  font-extrabold max-[400px]:text-xl text-2xl md:text-[42px] leading-[1.2] text-brand-teal">
             Cuota tributaria
           </h2>

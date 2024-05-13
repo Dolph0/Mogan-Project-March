@@ -48,26 +48,32 @@ export default function Home() {
         <div>
           <VideoSection />
         </div>
-        <MyHeading2
-          title={<span>Últimas noticias</span>}
-          paragraph={<span></span>}
-        />
-        <div className="flex flex-row justify-center container mx-auto flex-wrap gap-4 pb-10">
-          <Card
-            title="Mogán ya gestiona de forma directa las playas que tiene concesionadas"
-            subtitle="Saber más..."
-            imgSrc="/1.png"
+        <div className="space-y-8 lg:space-y-14">
+          <MyHeading2
+            title={<span>Últimas noticias</span>}
+            paragraph={<span></span>}
           />
-          <Card
-            title="Onalia Bueno da la bienvenida al nuevo personal de las playas"
-            subtitle="Saber más..."
-            imgSrc="/2.png"
-          />
-          <Card
-            title="Gestiona Mogán estrena oficina virtual tributaria"
-            subtitle="Saber más..."
-            imgSrc="/4.png"
-          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-7 lg:grid-cols-3 pb-12 lg:pb-28">
+            <Card
+              title="Mogán ya gestiona de forma directa las playas que tiene concesionadas"
+              subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum harum vel in sequi eveniet accusantium quo nesciunt ut, doloribus obcaecati similique, illum reprehenderit corrupti repellendus, at ipsum repudiandae dolorem ea."
+              imgSrc="/1.png"
+              slug="mogán-ya-gestiona-de"
+            />
+
+            <Card
+              title="Onalia Bueno da la bienvenida al nuevo personal de las playas"
+              subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum harum vel in sequi eveniet accusantium quo nesciunt ut, doloribus obcaecati similique, illum reprehenderit corrupti repellendus, at ipsum repudiandae dolorem ea."
+              imgSrc="/2.png"
+              slug="mogán-ya-gestiona-de"
+            />
+            <Card
+              title="Gestiona Mogán estrena oficina virtual tributaria"
+              subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum harum vel in sequi eveniet accusantium quo nesciunt ut, doloribus obcaecati similique, illum reprehenderit corrupti repellendus, at ipsum repudiandae dolorem ea."
+              imgSrc="/4.png"
+              slug="mogán-ya-gestiona-de"
+            />
+          </div>
         </div>
       </div>
     </>
