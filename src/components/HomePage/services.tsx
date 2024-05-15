@@ -22,7 +22,8 @@ const Services = () => {
       icon: "/icons/home-percentage.svg",
       iconWidth: 60,
       iconHeight: 54,
-      link: "/simulador",
+      // link: "/simulador",
+      link: "https://pre-produccion.coinpre.es:8443/simulador-plusvalias",
       iconClassName: "w-[34px] h-[31px] sm:w-[60px] sm:h-[54px]",
     },
     {
@@ -33,7 +34,8 @@ const Services = () => {
       icon: "/icons/home.svg",
       iconWidth: 60,
       iconHeight: 54,
-      link: "/oficina",
+      // link: "/oficina",
+      link: "https://pre-produccion.coinpre.es:8443/",
       iconClassName: "w-[31px] h-[28px] sm:w-[60px] sm:h-[54px]",
     },
     {

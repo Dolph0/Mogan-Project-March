@@ -14,7 +14,9 @@ export default function Home() {
           title={<span>Gestiona</span>}
           paragraph={<span>Al servicio del ciudadano</span>}
         />
-        <Services />
+        <div id="servicios">
+          <Services />
+        </div>
         <MyHeading2
           title={<span>Esto es lo que nos une</span>}
           paragraph={<span>Nuestro compromiso</span>}
@@ -48,7 +50,7 @@ export default function Home() {
         <div>
           <VideoSection />
         </div>
-        <div className="space-y-8 lg:space-y-14">
+        <div className="space-y-8 lg:space-y-14" id="ultimas-noticias">
           <MyHeading2
             title={<span>Últimas noticias</span>}
             paragraph={<span></span>}

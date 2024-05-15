@@ -12,11 +12,11 @@ const user = {
     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
 };
 const navigation = [
-  { name: "Trámites frecuentes", href: "#", current: false },
-  { name: "Portal de transparencia", href: "#", current: true },
-  { name: "Servicios", href: "#", current: false },
+  { name: "Trámites frecuentes", href: "/pagos", current: false },
+  { name: "Portal de transparencia", href: "/portal", current: true },
+  { name: "Servicios", href: "/#servicios", current: false },
   { name: "Parking", href: "/parking", current: false },
-  { name: "Noticias", href: "#", current: false },
+  { name: "Noticias", href: "/#ultimas-noticias", current: false },
   { name: "FAQ", href: "/faq", current: false },
 ];
 const userNavigation = [
@@ -64,6 +64,11 @@ const Navbar = (props: Props) => {
                     src="/Logo MG.svg"
                     alt="Your Company"
                   />
+                </Link>
+                <Link
+                  href="https://www.mogan.es/"
+                  className="flex flex-shrink-0 items-center"
+                >
                   <img
                     className="h-12 md:h-16 w-auto"
                     src="/Logo Ayuntamiento.svg"
