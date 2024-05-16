@@ -16,37 +16,50 @@ const page = (props: Props) => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-x-14 gap-y-12 sm:gap-y-28 pt-8  lg:pt-10 pb-10 sm:pb-20 xl:pb-40">
           <div className="flex justify-center items-center flex-col gap-3">
-            <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
+            <a href="/instancia_solicitud.pdf" download>
+              <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
+            </a>
             <p className="text-center text-[15px] text-brand-blue">
               Instancia solicitud
             </p>
           </div>
           <div className="flex justify-center items-center flex-col gap-3">
-            <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
+            <a href="/ModeloDeclaracion.pdf" download>
+              <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
+            </a>
             <p className="text-center text-[15px] text-brand-blue">
               Modelo de declaración-IIVTNU (Plusvalias)
             </p>
           </div>
+
           <div className="flex justify-center items-center flex-col gap-3">
-            <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
+            <a href="/correccióndedatos.pdf" download>
+              <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
+            </a>
             <p className="text-center text-[15px] text-brand-blue">
               Solicitud de corrección de datos
             </p>
           </div>
           <div className="flex justify-center items-center flex-col gap-3">
-            <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
+            <a href="/Formulario-domiciliacion-modificado.pdf" download>
+              <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
+            </a>
             <p className="text-center text-[15px] text-brand-blue">
               Formulario de domiciliación editable
             </p>
           </div>
           <div className="flex justify-center items-center flex-col gap-3">
-            <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
+            <a href="/OVTsolicitudadhesion.docx" download>
+              <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
+            </a>
             <p className="text-center text-[15px] text-brand-blue">
               OVT - Solicitud adhesión notificación electrónica
             </p>
           </div>
           <div className="flex justify-center items-center flex-col gap-3">
-            <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
+            <a href="/OVT-solicitud-renuncia.docx" download>
+              <Image src="/pdf.png" alt={"pdf icon"} height="68" width="80" />
+            </a>
             <p className="text-center text-[15px] text-brand-blue">
               OVT - Solicitud renuncia notificación electrónica
             </p>

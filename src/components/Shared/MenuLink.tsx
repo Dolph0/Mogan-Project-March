@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function MenuLink() {
   return (
-    <div className="absolute z-30 top-10 max-sm:left-8 sm:right-20">
+    <div className="absolute z-30 top-10 max-sm:right-8 sm:right-20">
       <ul className="space-y-1">
         <li className="relative group ">
           <span className="uppercase cursor-pointer text-white font-bold text-lg sm:text-xl lg:text-2xl">

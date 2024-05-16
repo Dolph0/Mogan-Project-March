@@ -63,10 +63,29 @@ export default function VideoArea() {
     <section className="relative min-h-[225px] sm:min-h-[450px] lg:min-h-[680px] xl:min-h-screen  ">
       <MenuLink />
       <iframe
-        className="aspect-video w-screen "
+        className="aspect-video w-screen"
         src="https://player.vimeo.com/video/904053646?autoplay=1&muted=1&controls=0&background=1&loop=1&byline=0&title=0"
       ></iframe>
-      <button onClick={() => setOpen(true)}>
+
+      <div className="absolute top-2 left-2 z-50 p-4 max-sm:top-5">
+        <a href="/">
+          <img
+            src="/logo gestiona parking.png"
+            alt="Icono"
+            className="h-28 w-28 max-sm:h-16 max-sm:w-16"
+          />{" "}
+          {/* Ajusta la ruta de la imagen y el tamaño según tus necesidades */}
+        </a>
+      </div>
+      {/* <div className="absolute bottom-40 right-4 z-50 p-4">
+        <img
+          src="/flecha-abajo.png"
+          alt="Icono"
+          className="h-12 w-16 max-sm:h-16 max-sm:w-16"
+        />
+      </div> */}
+
+      {/* <button onClick={() => setOpen(true)}>
         <Image
           alt="play"
           src={"/icons/play.svg"}
@@ -82,7 +101,7 @@ export default function VideoArea() {
         isOpen={isOpen}
         videoId={"904053646"}
         onClose={() => setOpen(false)}
-      />
+      /> */}
     </section>
   );
 }

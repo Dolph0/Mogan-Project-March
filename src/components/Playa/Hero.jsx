@@ -59,7 +59,18 @@ export default function Hero() {
         className="aspect-video w-screen "
         src="https://player.vimeo.com/video/925183921?autoplay=1&muted=1&controls=0&background=1&loop=1&byline=0&title=0"
       ></iframe>
-      <button onClick={() => setOpen(true)}>
+
+<div className="absolute top-2 left-2 z-50 p-4 max-sm:top-5">
+        <a href="/">
+          <img
+            src="/logo mogan playa.png"
+            alt="Icono"
+            className="h-28 w-28 max-sm:h-16 max-sm:w-16"
+          />{" "}
+          {/* Ajusta la ruta de la imagen y el tamaño según tus necesidades */}
+        </a>
+      </div>
+      {/* <button onClick={() => setOpen(true)}>
         <Image
           alt="play"
           src={"/icons/play.svg"}
@@ -75,7 +86,7 @@ export default function Hero() {
         isOpen={isOpen}
         videoId={"925183921"}
         onClose={() => setOpen(false)}
-      />
+      /> */}
     </section>
   );
 }
