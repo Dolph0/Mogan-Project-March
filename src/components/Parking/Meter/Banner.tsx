@@ -3,6 +3,16 @@ import Image from "next/image";
 export default function Banner() {
   return (
     <section className="relative min-h-[330px] lg:min-h-[735px] xl:min-h-screen">
+      <div className="absolute top-2 left-2 z-50 p-4 max-sm:top-5">
+        <a href="/">
+          <img
+            src="/logo zona azul.png"
+            alt="Icono"
+            className="h-28 w-28 max-sm:h-16 max-sm:w-16"
+          />{" "}
+          {/* Ajusta la ruta de la imagen y el tamaño según tus necesidades */}
+        </a>
+      </div>
       <Image
         src={banner}
         className="object-cover object-center"

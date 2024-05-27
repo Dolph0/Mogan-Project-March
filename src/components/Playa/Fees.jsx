@@ -25,7 +25,7 @@ export default function Fees() {
         name: "Hamacas y sobrillas",
         prices: [
           "Simple: 3,50 € ud/día",
-          "Dobles: 20 € ud/día",
+          // "Dobles: 20 € ud/día",
           "Sombrillas: 3,50 € ud/día",
         ],
       },
@@ -39,7 +39,7 @@ export default function Fees() {
         name: "Hamacas y sobrillas",
         prices: [
           "Simple: 3,50 € ud/día",
-          "Dobles: 20 € ud/día",
+          // "Dobles: 20 € ud/día",
           "Sombrillas: 3,50 € ud/día",
         ],
       },
@@ -156,9 +156,9 @@ export default function Fees() {
                   <li className="font-light text-sm leading-[21px] text-white">
                     Simple: 3,50 € ud/día
                   </li>
-                  <li className="font-light text-sm leading-[21px] text-white">
+                  {/* <li className="font-light text-sm leading-[21px] text-white">
                     Dobles: 20 € ud/día
-                  </li>
+                  </li> */}
                   <li className="font-light text-sm leading-[21px] text-white">
                     Sombrillas: 3,50 € ud/día
                   </li>
@@ -176,9 +176,9 @@ export default function Fees() {
                   <li className="font-light text-sm leading-[21px] text-white">
                     Simple: 3,50 € ud/día
                   </li>
-                  <li className="font-light text-sm leading-[21px] text-white">
+                  {/* <li className="font-light text-sm leading-[21px] text-white">
                     Dobles: 20 € ud/día
-                  </li>
+                  </li> */}
                   <li className="font-light text-sm leading-[21px] text-white">
                     Sombrillas: 3,50 € ud/día
                   </li>

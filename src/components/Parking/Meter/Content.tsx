@@ -27,7 +27,7 @@ export default function Content() {
             </p>
             <div className="flex justify-end pt-3 sm:pt-4">
               <a
-                href="#"
+                href="https://pre-produccion.coinpre.es:8443/zona-azul"
                 className="w-[170px] h-[37px] border border-brand-teal-light rounded-md text-white font-bold bg-brand-teal flex justify-center items-center hover:bg-opacity-85 transition-all"
               >
                 Pagos

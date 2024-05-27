@@ -32,34 +32,37 @@ export default function Beaches() {
       img: "/playa/beaches/desktop/rico.png",
     },
     {
-      playaPrefix: "Playa de",
-      playa: "Patalavaca",
-      imgMobile: "/playa/beaches/patalavaca.png",
-      img: "/playa/beaches/desktop/patalavaca.png",
-    },
-    {
-      playaPrefix: "Playa de",
-      playa: "Costa Alegre",
-      imgMobile: "/playa/beaches/costa-alegre.png",
-      img: "/playa/beaches/desktop/costa-alegre.png",
-    },
+        playaPrefix: "Playa de",
+        playa: "Patalavaca",
+        imgMobile: "/playa/beaches/costa-alegre.png",
+        img: "/playa/beaches/desktop/costa-alegre.png",
+      },
+      {
+          playaPrefix: "Playa de",
+          playa: "Costa Alegre",
+          imgMobile: "/playa/beaches/maranuelas.png",
+          img: "/playa/beaches/desktop/maranuelas.png",
+        },
+
+
+  
     {
       playaPrefix: "Playa de",
       playa: "Marañuelas",
-      imgMobile: "/playa/beaches/maranuelas.png",
-      img: "/playa/beaches/desktop/maranuelas.png",
-    },
-    {
-      playaPrefix: "Playa",
-      playa: "El Perchel",
       imgMobile: "/playa/beaches/perchel.png",
       img: "/playa/beaches/desktop/perchel.png",
     },
     {
-      playaPrefix: "Playa de",
-      playa: "Aquamarina",
+      playaPrefix: "Playa",
+      playa: "El Perchel",
       imgMobile: "/playa/beaches/aquamarina.png",
       img: "/playa/beaches/desktop/aquamarina.png",
+    },
+    {
+      playaPrefix: "Playa de",
+      playa: "Aquamarina",
+      imgMobile: "/playa/beaches/patalavaca.png",
+      img: "/playa/beaches/desktop/patalavaca.png",
     },
   ];
   const CarouselNextArrow = (props) => {

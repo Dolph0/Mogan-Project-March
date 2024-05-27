@@ -20,6 +20,9 @@ const Caraousal = (props: Props) => {
       <div>
         <img src="/WhatsApp Image 2024-03-19 at 14.30.42.jpeg" />
       </div>
+      <div>
+        <img src="/BANNER WEB PAGOS PLAZOS.JPG" />
+      </div>
       {/* <div>
         <img src="/banner-three.png" />
       </div> */}

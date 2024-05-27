@@ -102,19 +102,58 @@ const Footer = () => {
               </p>
               <div className="flex flex-col items-center sm:items-start justify-start gap-2">
                 <div className="flex items-center justify-center gap-[6px] sm:mt-6">
-                  <Image
+                  <a
+                    href="https://www.linkedin.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src="/icons/social-media/Linkedin.png"
+                      alt={"LinkedIn"}
+                      height={20}
+                      width={20}
+                    />
+                  </a>
+
+                  {/* <Image
                     src="/images/icons/social-media/Linkedin.png"
                     alt={"LinkedIn"}
                     height={20}
                     width={20}
-                  />
-                  <Image
+                  /> */}
+
+                  <a
+                    href="https://www.instagram.com/gestionamogan/?locale=es"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src="/icons/social-media/Instagram.png"
+                      alt={"Instagram"}
+                      height={20}
+                      width={20}
+                    />
+                  </a>
+                  {/* <Image
                     src="/images/icons/social-media/Instagram.png"
                     alt={"Instagram"}
                     height={20}
                     width={20}
-                  />
-                  <Image
+                  /> */}
+                  <a
+                    href="https://www.tiktok.com/@gestiona.mogn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src="/tik-tok.png"
+                      alt={"tik-tok"}
+                      height={20}
+                      width={20}
+                    />
+                  </a>
+
+                  {/* <Image
                     src="/images/icons/social-media/Facebook.png"
                     alt={"Facebook"}
                     height={20}
@@ -125,7 +164,7 @@ const Footer = () => {
                     alt={"Youtube"}
                     height={20}
                     width={23}
-                  />
+                  /> */}
                 </div>
                 <p className="font-normal text-[11px] text-[#F5F5F5] leading-3 sm:leading-[18px] text-center sm:text-left sm:mt-5">
                   #GestionaMogan

@@ -28,6 +28,12 @@ export default function TaxRate() {
           <Accordion title="4ª Hora" rate="3,00 €">
             Autoliquidación previa al estacionamiento
           </Accordion>
+          <Accordion title="Máximo diario" rate="6,00 €">
+            Autoliquidación previa al estacionamiento
+          </Accordion>
+          <Accordion title="Infracción" rate="8,00 €">
+            Autoliquidación previa al estacionamiento
+          </Accordion>
         </div>
       </div>
     </section>
