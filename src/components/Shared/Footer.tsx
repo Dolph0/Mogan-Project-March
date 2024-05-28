@@ -9,15 +9,15 @@ const Footer = () => {
       links: [
         {
           text: "Pagar",
-          url: "/",
+          url: "/pagos",
         },
         {
           text: "Obtener un recibo",
-          url: "/",
+          url: "https://pre-produccion.coinpre.es:8443/",
         },
         {
           text: "Domiciliar",
-          url: "/",
+          url: "https://pre-produccion.coinpre.es:8443/",
         },
       ],
     },
@@ -27,28 +27,28 @@ const Footer = () => {
       links: [
         {
           text: "Oficina Virtual Tributaria",
-          url: "/",
+          url: "https://pre-produccion.coinpre.es:8443/",
         },
-        {
-          text: "Convenios y proyectos",
-          url: "/",
-        },
+        // {
+        //   text: "Convenios y proyectos",
+        //   url: "/",
+        // },
         {
           text: "Portal de transparencia",
-          url: "/",
+          url: "/portal",
         },
-        {
-          text: "Trabaja con nosotros",
-          url: "/",
-        },
+        // {
+        //   text: "Trabaja con nosotros",
+        //   url: "/",
+        // },
         {
           text: "Sala de prensa",
-          url: "/",
+          url: "/blog/mogán-ya-gestiona-de",
         },
-        {
-          text: "Eventos",
-          url: "/",
-        },
+        // {
+        //   text: "Eventos",
+        //   url: "/",
+        // },
       ],
     },
     {
@@ -61,16 +61,16 @@ const Footer = () => {
         },
         {
           text: "Preguntas frecuentes",
-          url: "/",
+          url: "/faq",
         },
         {
           text: "Canal informativo",
           url: "/",
         },
-        {
-          text: "Dónde encontrarnos",
-          url: "/",
-        },
+        // {
+        //   text: "Dónde encontrarnos",
+        //   url: "/",
+        // },
       ],
     },
   ];

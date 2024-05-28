@@ -71,7 +71,7 @@ export default function Info() {
             El Horno
           </a>
         </div>
-        <div className="sm:pt-6 space-y-4 xl:pr-24">
+        {/* <div className="sm:pt-6 space-y-4 xl:pr-24">
           <h2 className="  font-extrabold max-[400px]:text-xl text-2xl md:text-[42px] leading-[1.2] text-brand-pink">
             ¿Quién puede solicitar una vivienda?
           </h2>
@@ -129,7 +129,7 @@ export default function Info() {
               cada uno de ellos.
             </p>
           </article>
-        </div>
+        </div> */}
       </div>
     </section>
   );
