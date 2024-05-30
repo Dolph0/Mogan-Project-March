@@ -1,4 +1,4 @@
-import Caraousal from "@/components/HomePage/Caraousal";
+import Caraousal from "@/components/HomePage/Caraousal.1";
 import Card from "@/components/HomePage/Card";
 import LinkedSections from "@/components/HomePage/LinkedSections";
 import MyHeading2 from "@/components/HomePage/MyHeading2";

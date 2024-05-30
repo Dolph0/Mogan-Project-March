@@ -1,4 +1,4 @@
-import Caraousal from "@/components/HomePage/Caraousal";
+import Caraousal from "@/components/HomePage/Caraousal.1";
 type Props = {};
 const page = (props: Props) => {
   return (

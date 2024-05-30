@@ -1,4 +1,4 @@
-import Caraousal from "@/components/HomePage/Caraousal";
+import Caraousal from "@/components/HomePage/Caraousal.1";
 import ImageOne from "@/public/images/portal/image-1.png";
 import ImageTwo from "@/public/images/portal/image-2.png";
 import Image from "next/image";

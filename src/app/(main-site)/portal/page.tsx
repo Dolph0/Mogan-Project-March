@@ -1,5 +1,5 @@
 import Accordion from "@/components/Accordion";
-import Caraousal from "@/components/HomePage/Caraousal";
+import Caraousal from "@/components/HomePage/Caraousal.1";
 
 import Link from "next/link";
 type Props = {};

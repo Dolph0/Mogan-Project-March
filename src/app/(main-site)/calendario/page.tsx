@@ -1,4 +1,4 @@
-import Caraousal from "@/components/HomePage/Caraousal";
+import Caraousal from "@/components/HomePage/Caraousal.1";
 import Image from "next/image";
 type Props = {};
 const page = (props: Props) => {
@@ -26,13 +26,62 @@ const page = (props: Props) => {
               <strong>Consulta ahora mismo ¡Fácil, rápido y cómodo!</strong>
             </p>
           </div>
-          <div className="md:col-span-5 max-md:flex justify-center">
+          {/* <div className="md:col-span-5 max-md:flex justify-center">
             <Image
               src="/calender.png"
               alt={"service icon"}
               height="500"
               width="495"
             />
+          </div> */}
+
+          <div className="relative md:col-span-5 max-md:flex justify-center">
+            <div className="relative">
+              <Image
+                src="/calender.png"
+                alt="service icon"
+                height="500"
+                width="495"
+              />
+              <div className="absolute inset-0 grid grid-cols-2 grid-rows-2">
+                <a
+                  href="/Calendario-Fiscal-2022.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className=" w-full h-full">
+                    <span className="sr-only">Open Document 1</span>
+                  </button>
+                </a>
+                <a
+                  href="/Calendario-fiscal-2023.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className=" w-full h-full">
+                    <span className="sr-only">Open Document 2</span>
+                  </button>
+                </a>
+                <a
+                  href="/CALENDARIO-FISCAL-2024.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className=" w-full h-full">
+                    <span className="sr-only">Open Document 3</span>
+                  </button>
+                </a>
+                <a
+                  href="/document4.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className=" w-full h-full">
+                    <span className="sr-only">Open Document 4</span>
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

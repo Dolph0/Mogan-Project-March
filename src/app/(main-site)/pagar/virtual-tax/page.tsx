@@ -1,4 +1,4 @@
-import Caraousal from "@/components/HomePage/Caraousal";
+import Caraousal from "@/components/HomePage/Caraousal.1";
 import receiptImg from "@/public/images/pagar/image-1.png";
 import reCaptcha from "@/public/images/pagar/image-2.png";
 import Image from "next/image";

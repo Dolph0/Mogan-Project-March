@@ -1,4 +1,4 @@
-import Caraousal from "@/components/HomePage/Caraousal";
+import Caraousal from "@/components/HomePage/Caraousal.1";
 import avatar from "@/public/images/portal/avatar-7.png";
 import Image from "next/image";
 type Props = {};

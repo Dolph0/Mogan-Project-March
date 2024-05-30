@@ -1,4 +1,4 @@
-import Caraousal from "@/components/HomePage/Caraousal";
+import Caraousal from "@/components/HomePage/Caraousal.1";
 import TabsTwo from "@/components/Tabs/TabsTwo";
 const tabItems = [
   {

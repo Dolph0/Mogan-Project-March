@@ -23,9 +23,19 @@ export default function Articles() {
               Hemos diseñado tarifas adaptadas específicamente para estas
               estancias más breves, pensando en tu comodidad y conveniencia.
             </p>
-            <Link href={"#"} className="text-xs text-brand-orange inline-block">
+            {/* <Link href={"#"} className="text-xs text-brand-orange inline-block">
               Condiciones tarifas por minutos{" "}
-            </Link>
+            </Link> */}
+            <div className="relative inline-block group">
+              <p className="text-xs text-brand-orange inline-block">
+                Condiciones tarifas por minutos
+              </p>
+              <div className="opacity-0 group-hover:opacity-100 absolute bg-[#EB6332] text-white text-xs rounded p-2 mt-2 w-64 transition-opacity duration-300">
+                Tarifas aplicadas en el aparcamiento mediante contraraciones de
+                bonos dirarios. Consulte al personal del aparcamiento o las
+                máquinas automáticas para dicha contratación.
+              </div>
+            </div>
           </div>
           <div className="space-y-5">
             <div className="flex gap-3 items-end ">
@@ -41,9 +51,19 @@ export default function Articles() {
               estancia temporal, te resultará beneficioso aprovechar nuestras
               atractivas ofertas económicas al dejar tu vehículo con nosotros.
             </p>
-            <Link href={"#"} className="text-xs text-brand-orange inline-block">
+            {/* <Link href={"#"} className="text-xs text-brand-orange inline-block">
               Condiciones tarifas por días
-            </Link>
+            </Link> */}
+            <div className="relative inline-block group">
+              <p className="text-xs text-brand-orange inline-block">
+                Condiciones tarifas por días
+              </p>
+              <div className="opacity-0 group-hover:opacity-100 absolute bg-[#EB6332] text-white text-xs rounded p-2 mt-2 w-64 transition-opacity duration-300">
+                Tarifas aplicadas directamente en el aparcamiento.
+                <br />
+                Estas tarifas pueden verse modificadas sin previo aviso.
+              </div>
+            </div>
           </div>
           <div className="space-y-5">
             <div className="flex gap-3 items-end ">
