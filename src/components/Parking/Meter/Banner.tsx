@@ -21,7 +21,6 @@ export default function Banner() {
       />
       <div className="bg-banner relative px-8 max-sm:flex items-center max-sm:min-h-[330px] sm:pt-32 pb-20 ">
         <div className="w-full sm:max-w-screen-xl mx-auto ">
-          {/* <p className=" mt-10 max-[374px]:text-[40px] text-[50px] sm:text-[65px] lg:text-[96px] font-extrabold leading-none text-white"> */}
           <p className="mt-10 text-[25px] sm:text-[25px] md:text-[50px] lg:text-[65px] xl:text-[96px] font-extrabold leading-none text-white">
             Estacionamiento Regulado
           </p>

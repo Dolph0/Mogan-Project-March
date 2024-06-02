@@ -10,16 +10,17 @@ export default function Info() {
               Zona azul
             </h2>
             <p className="text-sm text-dark max-[430px]:text-justify">
-              En Mogán se pueden encontrar dos zonas principales de
-              aparcarmiento, Zona Azul y aparcamiento interior. Ambas están
-              claramente identificadas, mediante la pintura del pavimento
-              o señales verticales que acotan las zonas reguladas.
+              La Zona Azul en Mogán está diseñada para optimizar el uso de las
+              plazas de aparcamiento disponibles, facilitando la rotación de
+              vehículos. Esta zona está claramente identificada mediante pintura
+              en el pavimento o señales verticales que acotan las áreas
+              reguladas.
               <br />
-              <br />
+              {/* <br />
               Con estas zonas lo que se pretende es el aprovechamiento al máximo
               de las plazas de aparcamiento, facilitando la rotación de
               vehículos. 
-              <br />
+              <br /> */}
               <br />
               En esta <strong className="text-brand-teal">
                 {" "}
