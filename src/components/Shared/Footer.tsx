@@ -55,18 +55,18 @@ const Footer = () => {
       sectionTitle: "Información",
       className: " sm:mt-0",
       links: [
-        {
-          text: "Solicitar cita previa",
-          url: "/",
-        },
+        // {
+        //   text: "Solicitar cita previa",
+        //   url: "/",
+        // },
         {
           text: "Preguntas frecuentes",
           url: "/faq",
         },
-        {
-          text: "Canal informativo",
-          url: "/",
-        },
+        // {
+        //   text: "Canal informativo",
+        //   url: "/",
+        // },
         // {
         //   text: "Dónde encontrarnos",
         //   url: "/",

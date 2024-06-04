@@ -53,11 +53,9 @@ const updateBlog = async (req: NextApiRequest, res: NextApiResponse) => {
         fs.rename(tempPath, newPath, (err) => {
           if (err) {
             console.error("Error saving the image file:", err);
-            return res
-              .status(500)
-              .json({
-                message: "Internal Server Error: Error saving the image file",
-              });
+            return res.status(500).json({
+              message: "Internal Server Error: Error saving the image file",
+            });
           }
 
           console.log("Image saved successfully:", newPath);
