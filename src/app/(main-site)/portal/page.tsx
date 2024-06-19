@@ -88,13 +88,16 @@ const page = (props: Props) => {
               Información Institucional
             </p>
           </Link>
-          <div className="relative group">
-            <div className="select-none rounded-tl-3xl max-[400px]:px-4 px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all">
-              <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
-                Consejo de Administración
-              </p>
-            </div>
-            <ul className="absolute right-0 w-full max-md:w-[300px] top-full shadow-md opacity-0 group-hover:opacity-100 invisible group-hover:visible rounded p-1 translate-y-10 group-hover:translate-y-0 transition-all duration-300  divide-y bg-white">
+          <Link
+            href="/portal/organos-directivos"
+            className="rounded-tl-3xl max-[400px]:px-4 px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
+          >
+            <p className="text-lg lg:text-[22px] text-center leading-[1.3] line-clamp-4 font-extrabold text-white">
+              Órganos directivos
+            </p>
+          </Link>
+
+          {/* <ul className="absolute right-0 w-full max-md:w-[300px] top-full shadow-md opacity-0 group-hover:opacity-100 invisible group-hover:visible rounded p-1 translate-y-10 group-hover:translate-y-0 transition-all duration-300  divide-y bg-white">
               <li>
                 <Link
                   className="py-2 inline-block font-medium text-gray-500 px-3 hover:bg-slate-100 text-sm"
@@ -143,8 +146,8 @@ const page = (props: Props) => {
                   Dº Neftalí de Jesús Sabina Déniz (Vocal)
                 </Link>
               </li>
-            </ul>
-          </div>
+            </ul> */}
+
           <Link
             href="/portal/contratos-encomiendas"
             className="rounded-tl-3xl max-[400px]:px-4 px-6 py-2 min-h-[110px] flex justify-center items-center bg-[#4D74F9] hover:bg-[#5698FB] hover:scale-105 transition-all"
