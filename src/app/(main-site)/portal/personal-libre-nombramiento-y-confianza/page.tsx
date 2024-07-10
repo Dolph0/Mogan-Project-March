@@ -22,15 +22,19 @@ const page = (props: Props) => {
               Gerente
             </h5>
             <p className="pt-4 md:pt-10 text-sm text-center md:text-left sm:text-base lg:text-lg max-w-[540px]">
-              Escribir palabras del gerente Escribir palabras del
-              gerenteEscribir palabras del gerenteEscribir palabras del
-              gerenteEscribir palabras del gerenteEscribir palabras del
-              gerenteEscribir palabras del gerenteEscribir palabras del
-              gerenteEscribir palabras del gerenteEscribir palabras del gerente.
+              D. Eduardo Álamo Perera , gerente por nombramiento NO participa en
+              ningún órgano colegiado y tiene concedida la compatibildad para el
+              ejercicio de su profesión.
             </p>
           </div>
           <div className="shrink-0 w-[150px] md:w-[250px]">
-            <Image src={avatar} alt={"avatar"} />
+            {/* <Image src={avatar} alt={"avatar"} /> */}
+            <Image
+              src="/Eduardo Álamo pic.jpeg"
+              alt="avatar"
+              width={250} // Puedes ajustar el ancho según sea necesario
+              height={250} // Puedes ajustar la altura según sea necesario
+            />
           </div>
         </div>
 

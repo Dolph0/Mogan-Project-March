@@ -7,11 +7,14 @@ export default function Content() {
       <div className="max-w-screen-xl mx-auto space-y-20 md:space-y-12">
         <div className="grid grid-cols-1  md:grid-cols-2">
           <div className="relative">
-            <div className="absolute inset-0 w-full h-full bg-brand-teal/40">
+            {/* <div className="absolute inset-0 w-full h-full bg-brand-teal/40">
               <span className="sr-only">overlay</span>
-            </div>
+            </div> */}
             <Image
-              src={blogImgOne}
+              // src={blogImgOne}
+              src="/parquimetro-zona-ser_hd_132826 1.png"
+              width={480}
+              height={263}
               className="object-cover h-full object-center w-full"
               alt={"Blog Img"}
             />
@@ -37,11 +40,14 @@ export default function Content() {
         </div>
         <div className="grid grid-cols-1  md:grid-cols-2">
           <div className="relative">
-            <div className="absolute inset-0 w-full h-full bg-brand-teal/40">
+            {/* <div className="absolute inset-0 w-full h-full bg-brand-teal/40">
               <span className="sr-only">overlay</span>
-            </div>
+            </div> */}
             <Image
-              src={blogImgTwo}
+              // src={blogImgTwo}
+              src="/parquimetro-zona-ser_hd_132826 2.png"
+              width={480}
+              height={263}
               className="object-cover h-full object-center w-full"
               alt={"Blog Img"}
             />
