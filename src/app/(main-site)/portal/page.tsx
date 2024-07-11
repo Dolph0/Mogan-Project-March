@@ -1,8 +1,9 @@
 import Accordion from "@/components/Accordion";
 import Caraousal from "@/components/HomePage/Caraousal.1";
-
 import Link from "next/link";
+
 type Props = {};
+
 const page = (props: Props) => {
   return (
     <div className="container mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
@@ -13,136 +14,166 @@ const page = (props: Props) => {
             Portal de transparencia
           </h2>
         </div>
-        {/* <div className="grid grid-cols-1 md:grid-cols-12 gap-8 pt-6 lg:pt-16">
-          <div className="md:col-span-7  ">
-            <p className="text-base lg:text-lg  text-black">
-              Mogan Gestión Municipal pone a disposición de la ciudadanía este
-              Portal de Transparencia para que acceda a la información pública
-              de forma fácil y sencilla. La ciudadanía tiene derecho a saber y a
-              través de este Portal se garantiza el mismo, fomentando de esta
-              forma la participación ciudadana y la colaboración en la gestión
-              de los asuntos públicos.
-            </p>
-          </div> */}
+
         <div className="space-y-8 pt-6 lg:pt-16">
-          <div>
-            <p className="text-base lg:text-lg text-black">
-              Mogan Gestión Municipal pone a disposición de la ciudadanía este
-              Portal de Transparencia para que acceda a la información pública
-              de forma fácil y sencilla. La ciudadanía tiene derecho a saber y a
-              través de este Portal se garantiza el mismo, fomentando de esta
-              forma la participación ciudadana y la colaboración en la gestión
-              de los asuntos públicos.
-            </p>
-          </div>
-          <div>
-            <div className="border-y divide-y divide-brand-teal border-brand-teal">
-              <Accordion title="Constitución">
-                Se constituye la empresa como sociedad mercantil el 27 de
-                febrero de 2003, con la denominación de Mogán Gestión Tributaria
-                Municipal, S.L., con capital de titularidad exclusiva del
-                Ayuntamiento de Mogán. Inscrita en el registro mercantil de Las
-                Palmas. Tomo: 1641 Libro: 0 Folio: 14 Sección: 8 Hoja: GC 29840.
-              </Accordion>
-              <Accordion title="Capital Social">
-                En la escritura de constitución el capital social es e VEINTE
-                MIL EUROS, representados por CIEN participaciones de DOSCIENTOS
-                EUROS de valor nominal cada una de ellas, numeradas
-                correlativamente del UNO al CIEN, ambas inclusive, suscrita por
-                el socio fundador, el Ayuntamiento de Mogán.
-              </Accordion>
-              <Accordion title="Objetivo Social y funciones">
-                OBJETO SOCIAL Y FUNCIONES El objeto social de la sociedad queda
-                centrado en la colaboración en la gestión recaudatoria de
-                impuestos, tributos, tasas, multas, precios públicos y otras
-                exacciones locales en periodo voluntario y/o ejecutivo. Según la
-                Encomienda de Gestión, de fecha 6 de febrero de 2003, esta
-                actividad estará sometida a la inspección y vigilancia municipal
-                y limitada a aquellos servicios y/o actuaciones que no impliquen
-                actos de autoridad. El 7 de noviembre de 2003 en Junta General
-                -que se corresponde con el Pleno Municipal- y para dar respuesta
-                a nuevas necesidades en la gestión de la empresa, se procede a
-                la modificación de los Estatutos de la Sociedad, ampliando el
-                objeto social y adecuando la denominación social a esta nueva
-                realidad. Así se incorporan al objeto social gestiones
-                urbanísticas y a titulo general “la promoción, gestión y
-                explotación de cualesquiera de los bienes y servicios y
-                actividades de competencia municipal”. La empresa pasa a
-                denominarse Mogán Gestión Municipal, S.L. Estos acuerdos fueron
-                formalizados públicamente el 18 de diciembre de 2003 ante el
-                notario Don Eloy Cuesta Pracias. Al amparo de estos acuerdos se
-                promueven desde la Corporación Municipal una serie de
-                encomiendas entre las que enumeramos la elaboración del Plan
-                General de Ordenación Urbana, el Mantenimiento de los Jardines
-                Municipales, la construcción de la Guardería del Valle de Mogán
-                y la Piscina de Arguineguín, el Bombeo de Aguas desde Playa de
-                Mogán, La Reforma del Centro de Día del Barrio del Horno, la
-                Ampliación del Centro Ocupacional, la Rehabilitación de la sede
-                de la Concejalía de la igualdad de Género, …. Al mismo tiempo se
-                adoptan una serie de iniciativas encaminadas a modernizar la
-                gestión de la empresa: apertura de nuevas oficinas
-                convenientemente equipadas, renovación de los equipos
-                informáticos, impulso a los convenios con la Agencia Tributaria
-                y Hacienda Canaria para el cobro fuera del término municipal,
-                página web, convenios con terceras firmas para la actualización
-                de la base de datos y altas catastrales.
-              </Accordion>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-xl font-bold" style={{ color: "#004870" }}>
+                Mogán Gestión Municipal
+              </h3>
+              <p>Entidad participada por el Ayuntamiento de Mogán</p>
+              <br />
+              <p>
+                <span className="font-bold" style={{ color: "#004870" }}>
+                  Dirección:
+                </span>{" "}
+                Avda. de la Constitución nº 14. C.P.: 35140. Mogán – Las Palmas
+              </p>
+              <br />
+              <p>
+                <span className="font-bold" style={{ color: "#004870" }}>
+                  Teléfono:
+                </span>{" "}
+                <a href="tel:928158806" style={{ color: "#5698FB" }}>
+                  928 15 88 06
+                </a>
+              </p>
+              <p>
+                <span className="font-bold" style={{ color: "#004870" }}>
+                  E-mail:
+                </span>{" "}
+                <a
+                  href="mailto:gestionmunicipal@gestmogan.com"
+                  style={{ color: "#5698FB" }}
+                >
+                  gestionmunicipal@gestmogan.com
+                </a>
+              </p>
+            </div>
+            <div>
+              <p>
+                A través del Portal de Transparencia de la empresa{" "}
+                <span className="font-bold" style={{ color: "#004870" }}>
+                  Mogán Gestión Municipal S.L
+                </span>
+                , creado siguiendo las indicaciones del{" "}
+                <a
+                  href="https://transparenciacanarias.org/"
+                  style={{ color: "#5698FB", textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Comisionado de Transparencia del Gobierno de Canarias
+                </a>
+                , podrá acceder a toda la información pública de esta entidad.
+                Buscamos ser más transparentes, ponemos a disposición de la
+                ciudadanía información sobre la gestión y los servicios
+                prestados.
+              </p>
+              <br />
+              <p>
+                Este portal se crea para cumplir con la{" "}
+                <a
+                  href="https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887"
+                  style={{ color: "#5698FB", textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ley Estatal de Transparencia 19/2013, de 9 de diciembre, de
+                  transparencia, acceso a la información pública y buen gobierno
+                </a>{" "}
+                y más específicamente se rige por la{" "}
+                <a
+                  href="https://www.boe.es/buscar/doc.php?id=BOE-A-2015-1114"
+                  style={{ color: "#5698FB", textDecoration: "none" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ley Canaria 12/2014, de 26 de diciembre, de Transparencia y de
+                  Acceso a la Información Pública
+                </a>{" "}
+                del Gobierno de Canarias.
+              </p>
+              <br />
+              <p>
+                Modelo de escrito descargable para facilitar a los ciudadanos el
+                poder presentar solicitudes de acceso a la información pública.
+              </p>
+              <br />
+              <p>
+                <span className="font-bold" style={{ color: "#004870" }}>
+                  AQUI EN FORMATO REUTILIZABLE
+                </span>
+                <div className="flex space-x-2 mt-2">
+                  <a
+                    href="/Nomativa-aplicable-Mogan-Gestion-Municipal.pdf"
+                    download
+                  >
+                    <img src="/pdf.svg" alt="PDF" className="w-12 h-12" />
+                  </a>
+                  <a href="/Nomativa-aplicable-Mogan-Gestion-Municipal.docx">
+                    <img src="/word.svg" alt="DOCX" className="w-12 h-12" />
+                  </a>
+                  <a href="/Nomativa-aplicable-Mogan-Gestion-Municipal.odt">
+                    <img src="/odt.svg" alt="ODT" className="w-12 h-12" />
+                  </a>
+                </div>
+              </p>
             </div>
           </div>
-          {/* <div className="md:col-span-5">
-            <div className="border-y divide-y divide-brand-teal border-brand-teal">
-              <Accordion title="Constitución">
-                Se constituye la empresa como sociedad mercantil el 27 de
-                febrero de 2003, con la denominación de Mogán Gestión Tributaria
-                Municipal, S.L., con capital de titularidad exclusiva del
-                Ayuntamiento de Mogán. Inscrita en el registro mercantil de Las
-                Palmas. Tomo: 1641 Libro: 0 Folio: 14 Sección: 8 Hoja: GC 29840.
-              </Accordion>
-              <Accordion title="Capital Social">
-                En la escritura de constitución el capital social es e VEINTE
-                MIL EUROS, representados por CIEN participaciones de DOSCIENTOS
-                EUROS de valor nominal cada una de ellas, numeradas
-                correlativamente del UNO al CIEN, ambas inclusive, suscrita por
-                el socio fundador, el Ayuntamiento de Mogán.
-              </Accordion>
-              <Accordion title="Objetivo Social y funciones">
-                OBJETO SOCIAL Y FUNCIONES El objeto social de la sociedad queda
-                centrado en la colaboración en la gestión recaudatoria de
-                impuestos, tributos, tasas, multas, precios públicos y otras
-                exacciones locales en periodo voluntario y/o ejecutivo. Según la
-                Encomienda de Gestión, de fecha 6 de febrero de 2003, esta
-                actividad estará sometida a la inspección y vigilancia municipal
-                y limitada a aquellos servicios y/o actuaciones que no impliquen
-                actos de autoridad. El 7 de noviembre de 2003 en Junta General
-                -que se corresponde con el Pleno Municipal- y para dar respuesta
-                a nuevas necesidades en la gestión de la empresa, se procede a
-                la modificación de los Estatutos de la Sociedad, ampliando el
-                objeto social y adecuando la denominación social a esta nueva
-                realidad. Así se incorporan al objeto social gestiones
-                urbanísticas y a titulo general “la promoción, gestión y
-                explotación de cualesquiera de los bienes y servicios y
-                actividades de competencia municipal”. La empresa pasa a
-                denominarse Mogán Gestión Municipal, S.L. Estos acuerdos fueron
-                formalizados públicamente el 18 de diciembre de 2003 ante el
-                notario Don Eloy Cuesta Pracias. Al amparo de estos acuerdos se
-                promueven desde la Corporación Municipal una serie de
-                encomiendas entre las que enumeramos la elaboración del Plan
-                General de Ordenación Urbana, el Mantenimiento de los Jardines
-                Municipales, la construcción de la Guardería del Valle de Mogán
-                y la Piscina de Arguineguín, el Bombeo de Aguas desde Playa de
-                Mogán, La Reforma del Centro de Día del Barrio del Horno, la
-                Ampliación del Centro Ocupacional, la Rehabilitación de la sede
-                de la Concejalía de la igualdad de Género, …. Al mismo tiempo se
-                adoptan una serie de iniciativas encaminadas a modernizar la
-                gestión de la empresa: apertura de nuevas oficinas
-                convenientemente equipadas, renovación de los equipos
-                informáticos, impulso a los convenios con la Agencia Tributaria
-                y Hacienda Canaria para el cobro fuera del término municipal,
-                página web, convenios con terceras firmas para la actualización
-                de la base de datos y altas catastrales.
-              </Accordion>
-            </div>
-          </div> */}
+        </div>
+        <div>
+          <div className="border-y divide-y divide-brand-teal border-brand-teal">
+            <Accordion title="Constitución">
+              Se constituye la empresa como sociedad mercantil el 27 de febrero
+              de 2003, con la denominación de Mogán Gestión Tributaria
+              Municipal, S.L., con capital de titularidad exclusiva del
+              Ayuntamiento de Mogán. Inscrita en el registro mercantil de Las
+              Palmas. Tomo: 1641 Libro: 0 Folio: 14 Sección: 8 Hoja: GC 29840.
+            </Accordion>
+            <Accordion title="Capital Social">
+              En la escritura de constitución el capital social es e VEINTE MIL
+              EUROS, representados por CIEN participaciones de DOSCIENTOS EUROS
+              de valor nominal cada una de ellas, numeradas correlativamente del
+              UNO al CIEN, ambas inclusive, suscrita por el socio fundador, el
+              Ayuntamiento de Mogán.
+            </Accordion>
+            <Accordion title="Objetivo Social y funciones">
+              OBJETO SOCIAL Y FUNCIONES El objeto social de la sociedad queda
+              centrado en la colaboración en la gestión recaudatoria de
+              impuestos, tributos, tasas, multas, precios públicos y otras
+              exacciones locales en periodo voluntario y/o ejecutivo. Según la
+              Encomienda de Gestión, de fecha 6 de febrero de 2003, esta
+              actividad estará sometida a la inspección y vigilancia municipal y
+              limitada a aquellos servicios y/o actuaciones que no impliquen
+              actos de autoridad. El 7 de noviembre de 2003 en Junta General
+              -que se corresponde con el Pleno Municipal- y para dar respuesta a
+              nuevas necesidades en la gestión de la empresa, se procede a la
+              modificación de los Estatutos de la Sociedad, ampliando el objeto
+              social y adecuando la denominación social a esta nueva realidad.
+              Así se incorporan al objeto social gestiones urbanísticas y a
+              titulo general “la promoción, gestión y explotación de
+              cualesquiera de los bienes y servicios y actividades de
+              competencia municipal”. La empresa pasa a denominarse Mogán
+              Gestión Municipal, S.L. Estos acuerdos fueron formalizados
+              públicamente el 18 de diciembre de 2003 ante el notario Don Eloy
+              Cuesta Pracias. Al amparo de estos acuerdos se promueven desde la
+              Corporación Municipal una serie de encomiendas entre las que
+              enumeramos la elaboración del Plan General de Ordenación Urbana,
+              el Mantenimiento de los Jardines Municipales, la construcción de
+              la Guardería del Valle de Mogán y la Piscina de Arguineguín, el
+              Bombeo de Aguas desde Playa de Mogán, La Reforma del Centro de Día
+              del Barrio del Horno, la Ampliación del Centro Ocupacional, la
+              Rehabilitación de la sede de la Concejalía de la igualdad de
+              Género, …. Al mismo tiempo se adoptan una serie de iniciativas
+              encaminadas a modernizar la gestión de la empresa: apertura de
+              nuevas oficinas convenientemente equipadas, renovación de los
+              equipos informáticos, impulso a los convenios con la Agencia
+              Tributaria y Hacienda Canaria para el cobro fuera del término
+              municipal, página web, convenios con terceras firmas para la
+              actualización de la base de datos y altas catastrales.
+            </Accordion>
+          </div>
         </div>
         <div className="pt-6 lg:pt-14 grid gap-4 sm:gap-8 grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
           <Link
@@ -161,57 +192,6 @@ const page = (props: Props) => {
               Órganos directivos
             </p>
           </Link>
-
-          {/* <ul className="absolute right-0 w-full max-md:w-[300px] top-full shadow-md opacity-0 group-hover:opacity-100 invisible group-hover:visible rounded p-1 translate-y-10 group-hover:translate-y-0 transition-all duration-300  divide-y bg-white">
-              <li>
-                <Link
-                  className="py-2 inline-block font-medium text-gray-500 px-3 hover:bg-slate-100 text-sm"
-                  href="portal/consejo-de-administracion/juan-ernesto-hernandez-cruz-presidente/"
-                >
-                  Juan Ernesto Hernández Cruz (Presidente)
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="py-2 inline-block font-medium text-gray-500 px-3 hover:bg-slate-100 text-sm"
-                  href="portal/consejo-de-administracion/consuelo-diaz-leon/"
-                >
-                  Dª Consuelo Díaz León (Vice-presidenta)
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="py-2 inline-block font-medium text-gray-500 px-3 hover:bg-slate-100 text-sm"
-                  href="portal/consejo-de-administracion/da-yaiza-de-la-soledad-llovell-hernandezvocal/"
-                >
-                  Dª Yaiza de la Soledad Llovell Hernández(Vocal)
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="py-2 inline-block font-medium text-gray-500 px-3 hover:bg-slate-100 text-sm"
-                  href="portal/consejo-de-administracion/do-josue-hernandez-delgado-vocal/"
-                >
-                  Dº Josué Hernández Delgado (Vocal)
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="py-2 inline-block font-medium text-gray-500 px-3 hover:bg-slate-100 text-sm"
-                  href="portal/consejo-de-administracion/da-juana-teresa-vega-jimenez-vocal/"
-                >
-                  Dª Juana Teresa Vega Jiménez (Vocal)
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="py-2 inline-block font-medium text-gray-500 px-3 hover:bg-slate-100 text-sm"
-                  href="portal/consejo-de-administracion/do-neftali-de-jesus-sabina-deniz-vocal/"
-                >
-                  Dº Neftalí de Jesús Sabina Déniz (Vocal)
-                </Link>
-              </li>
-            </ul> */}
 
           <Link
             href="/portal/contratos-encomiendas"
@@ -274,7 +254,7 @@ const page = (props: Props) => {
           <p className="text-[10px] sm:text-base lg:text-lg text-black text-center">
             Fecha de la{" "}
             <strong>última modificación del portal de transparencia</strong>{" "}
-            17/10/23
+            25/05/24
           </p>
         </div>
       </div>

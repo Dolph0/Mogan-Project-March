@@ -72,7 +72,7 @@ const page = (props: Props) => {
           <p className="text-[10px] sm:text-base lg:text-lg text-black text-center">
             Fecha de la
             <strong> última modificación del portal de transparencia </strong>
-            17/10/23
+            25/05/24
           </p>
         </div>
       </div>
