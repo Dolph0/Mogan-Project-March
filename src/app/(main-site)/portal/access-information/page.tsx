@@ -3,6 +3,7 @@ import ImageOne from "@/public/images/portal/image-1.png";
 import ImageTwo from "@/public/images/portal/image-2.png";
 import Image from "next/image";
 import Link from "next/link";
+import Accordion from "@/components/Accordion";
 type Props = {};
 const page = (props: Props) => {
   return (
@@ -137,6 +138,36 @@ const page = (props: Props) => {
               de 9 de diciembre, de transparencia, acceso a la información
               pública y buen gobierno.
             </p>
+          </div>
+        </div>
+
+        <div>
+          <h2 className="text-base text-center md:text-left sm:text-lg md:text-xl lg:text-2xl font-extrabold text-brand-blue">
+            Informes anual de transparencia
+          </h2>
+          <div className="border-y divide-y divide-brand-teal border-brand-teal">
+            <Accordion title="Año 2021"></Accordion>
+            <Accordion title="Año 2022">
+              <a
+                href="/Informe_Resultado-de-la-evaluacion-del-grado-de-transparencia_2022.pdf"
+                download
+              >
+                <p>
+                  Informe_Resultado de la evaluación del grado de
+                  transparencia_2022
+                </p>
+              </a>
+              <br />
+              <a
+                href="/Resumen_Informe_Resultado-de-la-evaluacion-del-grado-de-transparencia2022.pdf"
+                download
+              >
+                <p>
+                  Resumen_Informe_Resultado de la evaluación del grado de
+                  transparencia2022
+                </p>
+              </a>
+            </Accordion>
           </div>
         </div>
 
