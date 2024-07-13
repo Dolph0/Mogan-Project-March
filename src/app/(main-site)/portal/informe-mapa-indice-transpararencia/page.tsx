@@ -18,6 +18,9 @@ const page = (props: Props) => {
             src="https://transparenciacanarias.org/mapas-transparencia-canarias/"
           ></iframe>
         </div>
+        <h2 className="text-base text-center md:text-left sm:text-lg md:text-xl lg:text-2xl font-extrabold text-brand-blue">
+          En 2021,2022,2023: no se registran quejas ni reclamaciones
+        </h2>
 
         <div className="pt-4 md:pt-20  md:pb-10">
           <p className="text-[10px] sm:text-base lg:text-lg text-black text-center">

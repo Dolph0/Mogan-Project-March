@@ -150,6 +150,7 @@ const page = (props: Props) => {
             <Accordion title="Año 2022">
               <a
                 href="/Informe_Resultado-de-la-evaluacion-del-grado-de-transparencia_2022.pdf"
+                className="text-[#5698FB]"
                 download
               >
                 <p>
@@ -160,6 +161,7 @@ const page = (props: Props) => {
               <br />
               <a
                 href="/Resumen_Informe_Resultado-de-la-evaluacion-del-grado-de-transparencia2022.pdf"
+                className="text-[#5698FB]"
                 download
               >
                 <p>
@@ -169,6 +171,27 @@ const page = (props: Props) => {
               </a>
             </Accordion>
           </div>
+          <br />
+          <p>
+            Le informamos que para cualquier consulta/queja ante el Comisionado
+            de Transparencia, ponemos a su disposición el enlace de su web en la
+            que encontrará el formulario para realizar dicho trámite.
+            <a
+              href="https://transparenciacanarias.org/como-reclamar/"
+              className="text-[#5698FB]"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://transparenciacanarias.org/como-reclamar/
+            </a>
+          </p>
+          <br />
+          <h2 className="text-base text-center md:text-left sm:text-lg md:text-xl lg:text-2xl font-extrabold text-brand-blue">
+            Durante los años 2020-2023 no hay estadisticas Durante los años
+            2020-2023 no hay resoluciones denegatorias previa disociación de los
+            datos de carácter personal. El órgano competente en materia de
+            acceso es el Gerente de la empresa
+          </h2>
         </div>
 
         <div className="pt-4 md:pt-20  md:pb-10">
