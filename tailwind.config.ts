@@ -44,6 +44,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+        roboto: ["Roboto", "sans-serif"],
       },
       screens: {
         xl: "1267px",

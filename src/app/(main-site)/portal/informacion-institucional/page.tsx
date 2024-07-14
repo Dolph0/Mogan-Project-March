@@ -135,97 +135,12 @@ const tabItems = [
   {
     id: 4,
     title: "Modificación de estatutos",
-    content: `
-    <p>
-      <a
-        href="https://www.gestmogan.com/wp-content/uploads/2022/10/MGM-acuerdos-sociales-012019_Modificacion-de-Estatutos_Junta-Universal_13_03_17.pdf"
-        >Modificación de estatutos en junta universal año 2019(Click aquí)</a
-      ><a
-        href="https://www.gestmogan.com/wp-content/uploads/2022/10/Prot_616_Designacion-Miembros-Consejo-Administracion.pdf"
-        ><img
-          loading="lazy" 
-          src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-pdf-48.png"
-          alt=""
-          width="24"
-          height="24" /></a
-      ><a
-        href="https://www.gestmogan.com/wp-content/uploads/2022/10/MGM-acuerdos-sociales-012019_Modificacion-de-Estatutos_Junta-Universal_13_03_17.pdf"
-        ><img
-          loading="lazy"
-          src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-microsoft-word-2019-48.png"
-          alt=""
-          width="24"
-          height="24" />
-        <img
-          loading="lazy"
-          src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-odt-48.png"
-          alt=""
-          width="24"
-          height="24"
-      /></a>
-    </p>
-    <p>
-      <a
-        href="https://www.gestmogan.com/wp-content/uploads/2024/02/Prot_200_05_03_2022_Mod-Estatutos-y-Ampliac-Objeto-Social_Sin-Subsanacion-a-word.pdf"
-        >Prot_200_05_03_2022_Mod Estatutos y Ampliac Objeto Social_Sin
-        Subsanación a word</a
-      ><a
-        href="https://www.gestmogan.com/wp-content/uploads/2024/02/Prot_200_05_03_2022_Mod-Estatutos-y-Ampliac-Objeto-Social_Sin-Subsanacion-a-word.pdf"
-        ><img
-          loading="lazy"
-          src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-pdf-48.png"
-          alt=""
-          width="24"
-          height="24" /></a
-      ><a
-        href="https://www.gestmogan.com/wp-content/uploads/2024/02/Prot_200_05_03_2022_Mod-Estatutos-y-Ampliac-Objeto-Social_Sin-Subsanacion-a-word.docx"
-        ><img
-          loading="lazy"
-          src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-microsoft-word-2019-48.png"
-          alt=""
-          width="24"
-          height="24" /></a
-      ><a
-        href="https://www.gestmogan.com/wp-content/uploads/2024/02/Prot_200_05_03_2022_Mod-Estatutos-y-Ampliac-Objeto-Social_Sin-Subsanacion-a-word.odt"
-        ><img
-          loading="lazy"
-          src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-odt-48.png"
-          alt=""
-          width="24"
-          height="24"
-      /></a>
-    </p>`,
+    content: `<p><a href="https://www.gestmogan.com/wp-content/uploads/2022/10/MGM-acuerdos-sociales-012019_Modificacion-de-Estatutos_Junta-Universal_13_03_17.pdf">Modificación de estatutos en junta universal año 2019(Click aquí)</a><a href="https://www.gestmogan.com/wp-content/uploads/2022/10/Prot_616_Designacion-Miembros-Consejo-Administracion.pdf"><img loading="lazy" class="alignnone wp-image-3013" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-pdf-48.png" alt="" width="24" height="24"></a><a href="https://www.gestmogan.com/wp-content/uploads/2022/10/MGM-acuerdos-sociales-012019_Modificacion-de-Estatutos_Junta-Universal_13_03_17.pdf"><img loading="lazy" class="alignnone wp-image-3012" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-microsoft-word-2019-48.png" alt="" width="24" height="24"><img loading="lazy" class="alignnone wp-image-3011" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-odt-48.png" alt="" width="24" height="24"></a></p><p><a href="https://www.gestmogan.com/wp-content/uploads/2024/02/Prot_200_05_03_2022_Mod-Estatutos-y-Ampliac-Objeto-Social_Sin-Subsanacion-a-word.pdf">Prot_200_05_03_2022_Mod Estatutos y Ampliac Objeto Social_Sin Subsanación a word</a><a href="https://www.gestmogan.com/wp-content/uploads/2024/02/Prot_200_05_03_2022_Mod-Estatutos-y-Ampliac-Objeto-Social_Sin-Subsanacion-a-word.pdf"><img loading="lazy" class="alignnone wp-image-3013" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-pdf-48.png" alt="" width="24" height="24"></a><a href="https://www.gestmogan.com/wp-content/uploads/2024/02/Prot_200_05_03_2022_Mod-Estatutos-y-Ampliac-Objeto-Social_Sin-Subsanacion-a-word.docx"><img loading="lazy" class="alignnone wp-image-3012" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-microsoft-word-2019-48.png" alt="" width="24" height="24"></a><a href="https://www.gestmogan.com/wp-content/uploads/2024/02/Prot_200_05_03_2022_Mod-Estatutos-y-Ampliac-Objeto-Social_Sin-Subsanacion-a-word.odt"><img loading="lazy" class="alignnone wp-image-3011" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-odt-48.png" alt="" width="24" height="24"></a></p><p><a href="https://www.gestmogan.com/wp-content/uploads/2024/05/InformeFusionTrabajadores.pdf">Informe Fusion Trabajadores </a><a href="https://www.gestmogan.com/wp-content/uploads/2024/05/InformeFusionTrabajadores.pdf"><img loading="lazy" class="alignnone wp-image-3013" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-pdf-48.png" alt="" width="24" height="24"></a><img loading="lazy" class="alignnone wp-image-3012" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-microsoft-word-2019-48.png" alt="" width="24" height="24"><img loading="lazy" class="alignnone wp-image-3011" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-odt-48.png" alt="" width="24" height="24"></p>`,
   },
   {
     id: 5,
     title: "Designación de órgano de administración",
-    content: `<p>
-     <a
-       href="https://www.gestmogan.com/wp-content/uploads/2022/10/MGM-acuerdos-sociales-122003_cambio-de-denominación-y-modificacion-de-objeto-social-y-consecuente-modificación-parcial-de-estatutos.pdf"
-       >Escritura cambio de denominación y modificación de objeto social año
-       2003(Click aquí)</a
-     ><a
-       href="https://www.gestmogan.com/wp-content/uploads/2022/10/MGM-acuerdos-sociales-122003_cambio-de-denominación-y-modificacion-de-objeto-social-y-consecuente-modificación-parcial-de-estatutos.pdf"
-       ><img
-         loading="lazy"
-         src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-pdf-48.png"
-         alt=""
-         width="24"
-         height="24" /></a
-     ><img
-       loading="lazy"
-       src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-microsoft-word-2019-48.png"
-       alt=""
-       width="24"
-       height="24"
-     /><img
-       loading="lazy"
-       src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-odt-48.png"
-       alt=""
-       width="24"
-       height="24"
-     />
-   </p>`,
+    content: ` <p><a href="https://www.gestmogan.com/wp-content/uploads/2024/02/Prot_696_2023_Designacion-de-Organo-de-Administracion.pdf">Prot_696_2023_Designación de Organo de Administración</a><a href="https://www.gestmogan.com/wp-content/uploads/2024/02/Prot_696_2023_Designacion-de-Organo-de-Administracion.pdf"><img loading="lazy" class="alignnone wp-image-3013" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-pdf-48.png" alt="" width="24" height="24"></a><img loading="lazy" class="alignnone wp-image-3012" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-microsoft-word-2019-48.png" alt="" width="24" height="24"><img loading="lazy" class="alignnone wp-image-3011" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-odt-48.png" alt="" width="24" height="24"></p><p data-wp-editing="1"><a href="https://www.gestmogan.com/wp-content/uploads/2022/10/Prot_616_Designacion-Miembros-Consejo-Administracion.pdf">Designacion de miembros del consejo de administración (Septiembre 2019) (Click aquí)</a><a href="https://www.gestmogan.com/wp-content/uploads/2022/10/Prot_616_Designacion-Miembros-Consejo-Administracion.pdf"><img loading="lazy" class="alignnone wp-image-3013" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-pdf-48.png" alt="" width="24" height="24"></a><img loading="lazy" class="alignnone wp-image-3012" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-microsoft-word-2019-48.png" alt="" width="24" height="24"><img loading="lazy" class="alignnone wp-image-3011" src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-odt-48.png" alt="" width="24" height="24"></p>`,
   },
   {
     id: 6,

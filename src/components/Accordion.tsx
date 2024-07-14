@@ -16,9 +16,9 @@ export default function Accordion({ title, children }: any) {
         <button
           onClick={toggleAccordion}
           type="button"
-          className="w-full px-4 font-bold text-brand-teal py-3 items-center flex justify-between"
+          className="w-full px-2.5 text-[15px] font-bold text-brand-teal py-3 items-center flex justify-between"
         >
-          <span>{title}</span>
+          <span className="text-left">{title}</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
