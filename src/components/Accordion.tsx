@@ -28,7 +28,7 @@ export default function Accordion({ title, children }: any) {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
-            className={height ? "rotate-180" : ""}
+            className={height ? "rotate-180 shrink-0" : "shrink-0"}
             viewBox="0 0 24 24"
           >
             <path d="M18 15L12 9 6 15"></path>
@@ -39,7 +39,7 @@ export default function Accordion({ title, children }: any) {
           ref={accordion}
           style={{ maxHeight: height }}
         >
-          <p className="pb-3 text-dark text-sm">{children}</p>
+          <div className="pb-3 text-dark text-sm"> {children}</div>
         </div>
       </div>
     </>

@@ -3,82 +3,76 @@ import CountDown from "@/components/CountDown";
 import Caraousal from "@/components/HomePage/Caraousal.1";
 import PopUp from "@/components/PopUp";
 import Link from "next/link";
+import { datas } from "./datas";
 type Props = {};
 const page = (props: Props) => {
-  const targetDate = "2024-07-30T23:59:59";
   return (
     <>
       <div className="container mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
         <Caraousal />
-        <div className="pt-12 pb-12 sm:pb-20 space-y-12 md:space-y-14 px-3 md:px-0 ">
+        <div className="pt-12 pb-12 sm:pb-20 space-y-12 md:space-y-14 max-w-[1000px] mx-auto">
           <div className="space-y-1">
-            <h2 className="font-extrabold text-center text-xl sm:text-3xl lg:text-[42px] text-brand-blue">
-              Procesos de selección activos
-            </h2>
+            <div className="space-y-2">
+              <h2 className="font-extrabold text-center text-xl sm:text-3xl lg:text-[42px] text-brand-blue">
+                Portal de empleo Mogán
+              </h2>
+              <p className="text-center text-2xl text-brand-blue">
+                Procesos de selección activos
+              </p>
+            </div>
             <div className="space-y-12  pt-10">
-              <div className="grid gap-10 grid-cols-2">
-                <div className="">
-                  <Link href="/trabaja-con-nosotros/details">
-                    <img
-                      className="w-full"
-                      src="https://www.gestmogan.com/wp-content/uploads/2021/11/ofertadeempleo-300x157.jpeg"
-                      alt="ofertadeempleo"
-                    />
-                  </Link>
-                  <div className="pt-4 space-y-3 lg:pr-6">
-                    <div className="space-y-0.5">
-                      <Link href="/trabaja-con-nosotros/details">
-                        <h2 className="uppercase text-lg font-semibold text-brand-blue leading-normal">
-                          PROCEDIMIENTO DE SELECCIÓN DE PERSONAL MANTENIMIENTO 1
-                          PLAZA CON PRIORIDAD PARA PERSONAS CON CERTIFICADO DE
-                          DISCAPACIDAD*
+              {datas.map((data) => (
+                <div className="grid gap-10 grid-cols-2">
+                  <div className="space-y-6">
+                    <Link href={`/trabaja-con-nosotros/details/${data.id}`}>
+                      <img
+                        className="w-full rounded-3xl"
+                        src={data.img_url}
+                        alt="ofertadeempleo"
+                      />
+                    </Link>
+                    <div className="space-y-5">
+                      <CountDown targetDate={data.counter.target_date} />
+                    </div>
+                  </div>
+                  <div className="space-y-4">
+                    <h3 className="text-brand-blue text-left text-lg">
+                      {data.counter.title}
+                    </h3>
+                    <div className="space-y-2">
+                      <Link
+                        href={`/trabaja-con-nosotros/details/${data.id}`}
+                        className="inline-block"
+                      >
+                        <h2 className="uppercase text-2xl font-bold text-brand-blue leading-normal">
+                          {data.title}
                         </h2>
                       </Link>
-                      <p className="text-sm text-dark/40">
-                        junio 24, 2024 /// No hay comentarios
+                      <p>
+                        <Link
+                          href={`/trabaja-con-nosotros/details/${data.id}`}
+                          className="inline-block text-brand-blue hover:underline"
+                        >
+                          Leer más »
+                        </Link>
                       </p>
                     </div>
-                    <p className="  text-dark/70 text-base">
-                      PROCEDIMIENTO DE SELECCIÓN DE PERSONAL LABORAL INDEFINIDO
-                      CATEGORÍA “PERSONAL DE MANTENIMIENTO”, CON PRIORIDAD PARA
-                      PERSONAS CON CERTIFICADO DE DISCAPACIDAD* * En el caso de
-                      que
-                    </p>
-                    <Link
-                      href="/trabaja-con-nosotros/details"
-                      className="inline-block text-brand-green hover:underline text-base"
-                    >
-                      Leer más »
-                    </Link>
+                    <div className="bg-white pt-1">
+                      <div className="border-y divide-y divide-brand-teal border-brand-teal">
+                        {data.accordions.map((accordion) => (
+                          <Accordion title={accordion.title}>
+                            <article
+                              dangerouslySetInnerHTML={{
+                                __html: accordion.details,
+                              }}
+                            />
+                          </Accordion>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="space-y-6">
-                  <h3 className="text-brand-blue text-center text-xl  font-semibold">
-                    Plazo para presentación de documentación hasta el día 08 de
-                    Julio de 2.024
-                  </h3>
-                  <div className="space-y-6">
-                    <CountDown targetDate={targetDate} />
-                    <p className="text-dark/80 text-center text-base">
-                      El plazo ha sido cerrado, ya no se admitirán mas
-                      solicitudes. Muchas gracias
-                    </p>
-                  </div>
-                  <div className="border-y divide-y divide-brand-teal border-brand-teal">
-                    <Accordion title="Publicación  lista provisional el los días siguientes al ultimo dia de plazo"></Accordion>
-                    <Accordion title="plazo serán 5 diás a contar desde la fecha de publicación de la lista provisional">
-                      – Sino se subsana en el tiempo establecido no se tendrá en
-                      cuenta la nota del examen.
-                    </Accordion>
-                    <Accordion title='Publicación lista definitiva "No se concreta"'></Accordion>
-                    <Accordion title="Prueba escrita y entrevista personal ">
-                      La ENTREVISTA PERSONAL se realizará el mismo día a la
-                      <br />
-                      finalización de la prueba escrita
-                    </Accordion>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
