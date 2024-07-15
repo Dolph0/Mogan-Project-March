@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar/Navbar";
+import PopUp from "@/components/PopUp";
 import Footer from "@/components/Shared/Footer";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -25,6 +26,40 @@ export default function RootLayout({
           type="text/javascript"
           src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
         ></script> */}
+        <PopUp classes="bottom-0 left-0">
+          <div className="space-y-3 pt-8">
+            <h3 className="text-[28px] font-medium leading-snug text-brand-orange text-center">
+              AVISO IMPORTANTE
+            </h3>
+            <div className="flex justify-center">
+              <img
+                src="https://www.gestmogan.com/wp-content/uploads/2022/11/MOGAN-MARCA-Y-COMUNICACION-300x300.png"
+                alt=""
+                width="150"
+                height="150"
+              />
+            </div>
+            <h5 className="text-3xl text-brand-orange text-center pb-3">
+              Proyecto común de fusión
+            </h5>
+            <p className="text-center text-base text-dark pb-3">
+              Click en en enlace para acceder al documento
+            </p>
+            <p className="text-center text-base pb-6">
+              <a
+                className="text-brand-orange  hover:text-brand-maron  transition-all flex items-end gap-1.5 justify-center"
+                href="https://www.gestmogan.com/wp-content/uploads/2024/05/InformeFusionTrabajadores.pdf"
+              >
+                Informe Fusion Trabajadores
+                <img
+                  className="size-10 inline"
+                  src="https://www.gestmogan.com/wp-content/uploads/2022/10/icons8-pdf-48.png"
+                  alt="pdf"
+                />
+              </a>
+            </p>
+          </div>
+        </PopUp>
       </body>
     </html>
   );
